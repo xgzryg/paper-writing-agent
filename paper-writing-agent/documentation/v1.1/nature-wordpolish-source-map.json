@@ -1,0 +1,822 @@
+[
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\agents\\openai.yaml",
+    "package": "skills/nature-writing/agents/openai.yaml",
+    "bytes": 257
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\manifest.yaml",
+    "package": "skills/nature-writing/manifest.yaml",
+    "bytes": 8817
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\README.md",
+    "package": "skills/nature-writing/README.md",
+    "bytes": 4381
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\README_EN.md",
+    "package": "skills/nature-writing/README_EN.md",
+    "bytes": 4988
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\abstract.md",
+    "package": "skills/nature-writing/references/abstract.md",
+    "bytes": 4067
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\article-architecture.md",
+    "package": "skills/nature-writing/references/article-architecture.md",
+    "bytes": 3434
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\chinese-author-workflow.md",
+    "package": "skills/nature-writing/references/chinese-author-workflow.md",
+    "bytes": 1821
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\conclusion.md",
+    "package": "skills/nature-writing/references/conclusion.md",
+    "bytes": 1244
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\abstract\\template-a.md",
+    "package": "skills/nature-writing/references/examples/abstract/template-a.md",
+    "bytes": 950
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\abstract\\template-b.md",
+    "package": "skills/nature-writing/references/examples/abstract/template-b.md",
+    "bytes": 3265
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\abstract\\template-c.md",
+    "package": "skills/nature-writing/references/examples/abstract/template-c.md",
+    "bytes": 1750
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\abstract-examples.md",
+    "package": "skills/nature-writing/references/examples/abstract-examples.md",
+    "bytes": 875
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\index.md",
+    "package": "skills/nature-writing/references/examples/index.md",
+    "bytes": 2402
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\novel-task-challenge-decomposition.md",
+    "package": "skills/nature-writing/references/examples/introduction/novel-task-challenge-decomposition.md",
+    "bytes": 1550
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\pipeline-not-recommended-abstract-only.md",
+    "package": "skills/nature-writing/references/examples/introduction/pipeline-not-recommended-abstract-only.md",
+    "bytes": 2976
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\pipeline-version-1-one-contribution-multi-advantages.md",
+    "package": "skills/nature-writing/references/examples/introduction/pipeline-version-1-one-contribution-multi-advantages.md",
+    "bytes": 2039
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\pipeline-version-2-two-contributions.md",
+    "package": "skills/nature-writing/references/examples/introduction/pipeline-version-2-two-contributions.md",
+    "bytes": 2049
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\pipeline-version-3-new-module-on-existing-pipeline.md",
+    "package": "skills/nature-writing/references/examples/introduction/pipeline-version-3-new-module-on-existing-pipeline.md",
+    "bytes": 1514
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\pipeline-version-4-observation-driven.md",
+    "package": "skills/nature-writing/references/examples/introduction/pipeline-version-4-observation-driven.md",
+    "bytes": 1441
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\technical-challenge-version-1-existing-task.md",
+    "package": "skills/nature-writing/references/examples/introduction/technical-challenge-version-1-existing-task.md",
+    "bytes": 2690
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\technical-challenge-version-2-existing-task-insight-backed-by-traditional.md",
+    "package": "skills/nature-writing/references/examples/introduction/technical-challenge-version-2-existing-task-insight-backed-by-traditional.md",
+    "bytes": 3848
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\technical-challenge-version-3-novel-task.md",
+    "package": "skills/nature-writing/references/examples/introduction/technical-challenge-version-3-novel-task.md",
+    "bytes": 1629
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\version-1-task-then-application.md",
+    "package": "skills/nature-writing/references/examples/introduction/version-1-task-then-application.md",
+    "bytes": 727
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\version-2-application-first.md",
+    "package": "skills/nature-writing/references/examples/introduction/version-2-application-first.md",
+    "bytes": 405
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\version-3-general-to-specific-setting.md",
+    "package": "skills/nature-writing/references/examples/introduction/version-3-general-to-specific-setting.md",
+    "bytes": 847
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction\\version-4-open-with-challenge.md",
+    "package": "skills/nature-writing/references/examples/introduction/version-4-open-with-challenge.md",
+    "bytes": 1753
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\introduction-examples.md",
+    "package": "skills/nature-writing/references/examples/introduction-examples.md",
+    "bytes": 1544
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\example-of-the-three-elements.md",
+    "package": "skills/nature-writing/references/examples/method/example-of-the-three-elements.md",
+    "bytes": 7440
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\method-writing-common-issues-note.md",
+    "package": "skills/nature-writing/references/examples/method/method-writing-common-issues-note.md",
+    "bytes": 355
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\module-design-instant-ngp.md",
+    "package": "skills/nature-writing/references/examples/method/module-design-instant-ngp.md",
+    "bytes": 4557
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\module-motivation-patterns.md",
+    "package": "skills/nature-writing/references/examples/method/module-motivation-patterns.md",
+    "bytes": 410
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\module-triad-neural-body.md",
+    "package": "skills/nature-writing/references/examples/method/module-triad-neural-body.md",
+    "bytes": 763
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\neural-body-annotated-figure-text.md",
+    "package": "skills/nature-writing/references/examples/method/neural-body-annotated-figure-text.md",
+    "bytes": 2845
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\overview-template.md",
+    "package": "skills/nature-writing/references/examples/method/overview-template.md",
+    "bytes": 2054
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\pre-writing-questions.md",
+    "package": "skills/nature-writing/references/examples/method/pre-writing-questions.md",
+    "bytes": 479
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method\\section-skeleton.md",
+    "package": "skills/nature-writing/references/examples/method/section-skeleton.md",
+    "bytes": 110
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\examples\\method-examples.md",
+    "package": "skills/nature-writing/references/examples/method-examples.md",
+    "bytes": 1028
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\experiments.md",
+    "package": "skills/nature-writing/references/experiments.md",
+    "bytes": 4860
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\introduction.md",
+    "package": "skills/nature-writing/references/introduction.md",
+    "bytes": 15709
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\method.md",
+    "package": "skills/nature-writing/references/method.md",
+    "bytes": 7102
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\nat-comms-2025-corpus.md",
+    "package": "skills/nature-writing/references/nat-comms-2025-corpus.md",
+    "bytes": 7457
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\nature-summary-paragraph.md",
+    "package": "skills/nature-writing/references/nature-summary-paragraph.md",
+    "bytes": 10587
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\paper-review.md",
+    "package": "skills/nature-writing/references/paper-review.md",
+    "bytes": 5428
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\paragraph-flow.md",
+    "package": "skills/nature-writing/references/paragraph-flow.md",
+    "bytes": 1695
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\related-work.md",
+    "package": "skills/nature-writing/references/related-work.md",
+    "bytes": 1283
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\references\\submission-package.md",
+    "package": "skills/nature-writing/references/submission-package.md",
+    "bytes": 8066
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\SKILL.md",
+    "package": "skills/nature-writing/SKILL.md",
+    "bytes": 9628
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\core\\output-format.md",
+    "package": "skills/nature-writing/static/core/output-format.md",
+    "bytes": 1828
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\core\\stance.md",
+    "package": "skills/nature-writing/static/core/stance.md",
+    "bytes": 2279
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\core\\workflow.md",
+    "package": "skills/nature-writing/static/core/workflow.md",
+    "bytes": 6718
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\journal\\generic.md",
+    "package": "skills/nature-writing/static/fragments/journal/generic.md",
+    "bytes": 1159
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\journal\\nat-comms.md",
+    "package": "skills/nature-writing/static/fragments/journal/nat-comms.md",
+    "bytes": 2954
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\journal\\nat-mach-intell.md",
+    "package": "skills/nature-writing/static/fragments/journal/nat-mach-intell.md",
+    "bytes": 6033
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\journal\\nature-family.md",
+    "package": "skills/nature-writing/static/fragments/journal/nature-family.md",
+    "bytes": 1182
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\journal\\nature.md",
+    "package": "skills/nature-writing/static/fragments/journal/nature.md",
+    "bytes": 2794
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\language\\en.md",
+    "package": "skills/nature-writing/static/fragments/language/en.md",
+    "bytes": 1026
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\language\\zh-to-en.md",
+    "package": "skills/nature-writing/static/fragments/language/zh-to-en.md",
+    "bytes": 1616
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\paper_type\\algorithmic.md",
+    "package": "skills/nature-writing/static/fragments/paper_type/algorithmic.md",
+    "bytes": 1237
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\paper_type\\hypothesis.md",
+    "package": "skills/nature-writing/static/fragments/paper_type/hypothesis.md",
+    "bytes": 1043
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\paper_type\\methods.md",
+    "package": "skills/nature-writing/static/fragments/paper_type/methods.md",
+    "bytes": 1241
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\paper_type\\research.md",
+    "package": "skills/nature-writing/static/fragments/paper_type/research.md",
+    "bytes": 1288
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\paper_type\\review.md",
+    "package": "skills/nature-writing/static/fragments/paper_type/review.md",
+    "bytes": 1209
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\abstract.md",
+    "package": "skills/nature-writing/static/fragments/section/abstract.md",
+    "bytes": 1746
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\conclusion.md",
+    "package": "skills/nature-writing/static/fragments/section/conclusion.md",
+    "bytes": 929
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\discussion.md",
+    "package": "skills/nature-writing/static/fragments/section/discussion.md",
+    "bytes": 1796
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\experiments.md",
+    "package": "skills/nature-writing/static/fragments/section/experiments.md",
+    "bytes": 3080
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\intro.md",
+    "package": "skills/nature-writing/static/fragments/section/intro.md",
+    "bytes": 2647
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\method.md",
+    "package": "skills/nature-writing/static/fragments/section/method.md",
+    "bytes": 1365
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\related-work.md",
+    "package": "skills/nature-writing/static/fragments/section/related-work.md",
+    "bytes": 1178
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\section\\title.md",
+    "package": "skills/nature-writing/static/fragments/section/title.md",
+    "bytes": 999
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\task\\manuscript.md",
+    "package": "skills/nature-writing/static/fragments/task/manuscript.md",
+    "bytes": 288
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\static\\fragments\\task\\submission-package.md",
+    "package": "skills/nature-writing/static/fragments/task/submission-package.md",
+    "bytes": 2593
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\templates\\submission\\declarations-and-reviewers.tex",
+    "package": "skills/nature-writing/templates/submission/declarations-and-reviewers.tex",
+    "bytes": 2725
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\templates\\submission\\highlights-and-summary.tex",
+    "package": "skills/nature-writing/templates/submission/highlights-and-summary.tex",
+    "bytes": 1187
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\templates\\submission\\initial-cover-letter.tex",
+    "package": "skills/nature-writing/templates/submission/initial-cover-letter.tex",
+    "bytes": 1639
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-writing\\templates\\submission\\title-page.tex",
+    "package": "skills/nature-writing/templates/submission/title-page.tex",
+    "bytes": 2029
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\agents\\openai.yaml",
+    "package": "skills/nature-polishing/agents/openai.yaml",
+    "bytes": 267
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\manifest.yaml",
+    "package": "skills/nature-polishing/manifest.yaml",
+    "bytes": 6744
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\README.md",
+    "package": "skills/nature-polishing/README.md",
+    "bytes": 3677
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\README_EN.md",
+    "package": "skills/nature-polishing/README_EN.md",
+    "bytes": 4282
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\latex-layout.md",
+    "package": "skills/nature-polishing/references/latex-layout.md",
+    "bytes": 10636
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\nat-comms-2025-diction.md",
+    "package": "skills/nature-polishing/references/nat-comms-2025-diction.md",
+    "bytes": 4009
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\phrasebank-playbook.md",
+    "package": "skills/nature-polishing/references/phrasebank-playbook.md",
+    "bytes": 4156
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\published-article-patterns.md",
+    "package": "skills/nature-polishing/references/published-article-patterns.md",
+    "bytes": 4719
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\section-moves.md",
+    "package": "skills/nature-polishing/references/section-moves.md",
+    "bytes": 6000
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\style-guardrails.md",
+    "package": "skills/nature-polishing/references/style-guardrails.md",
+    "bytes": 2669
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\references\\writing-strategy.md",
+    "package": "skills/nature-polishing/references/writing-strategy.md",
+    "bytes": 4856
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\SKILL.md",
+    "package": "skills/nature-polishing/SKILL.md",
+    "bytes": 7588
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\core\\failure-modes.md",
+    "package": "skills/nature-polishing/static/core/failure-modes.md",
+    "bytes": 1337
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\core\\output-format.md",
+    "package": "skills/nature-polishing/static/core/output-format.md",
+    "bytes": 840
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\core\\stance.md",
+    "package": "skills/nature-polishing/static/core/stance.md",
+    "bytes": 1672
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\journal\\generic.md",
+    "package": "skills/nature-polishing/static/fragments/journal/generic.md",
+    "bytes": 1022
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\journal\\nat-comms.md",
+    "package": "skills/nature-polishing/static/fragments/journal/nat-comms.md",
+    "bytes": 2457
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\journal\\nat-mach-intell.md",
+    "package": "skills/nature-polishing/static/fragments/journal/nat-mach-intell.md",
+    "bytes": 4711
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\journal\\nature.md",
+    "package": "skills/nature-polishing/static/fragments/journal/nature.md",
+    "bytes": 1185
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\language\\en.md",
+    "package": "skills/nature-polishing/static/fragments/language/en.md",
+    "bytes": 1214
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\language\\zh-to-en.md",
+    "package": "skills/nature-polishing/static/fragments/language/zh-to-en.md",
+    "bytes": 1241
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\paper_type\\algorithmic.md",
+    "package": "skills/nature-polishing/static/fragments/paper_type/algorithmic.md",
+    "bytes": 953
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\paper_type\\hypothesis.md",
+    "package": "skills/nature-polishing/static/fragments/paper_type/hypothesis.md",
+    "bytes": 765
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\paper_type\\methods.md",
+    "package": "skills/nature-polishing/static/fragments/paper_type/methods.md",
+    "bytes": 806
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\paper_type\\research.md",
+    "package": "skills/nature-polishing/static/fragments/paper_type/research.md",
+    "bytes": 785
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\paper_type\\review.md",
+    "package": "skills/nature-polishing/static/fragments/paper_type/review.md",
+    "bytes": 994
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\abstract.md",
+    "package": "skills/nature-polishing/static/fragments/section/abstract.md",
+    "bytes": 1139
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\conclusion.md",
+    "package": "skills/nature-polishing/static/fragments/section/conclusion.md",
+    "bytes": 512
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\discussion.md",
+    "package": "skills/nature-polishing/static/fragments/section/discussion.md",
+    "bytes": 1714
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\intro.md",
+    "package": "skills/nature-polishing/static/fragments/section/intro.md",
+    "bytes": 1292
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\methods.md",
+    "package": "skills/nature-polishing/static/fragments/section/methods.md",
+    "bytes": 815
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\results.md",
+    "package": "skills/nature-polishing/static/fragments/section/results.md",
+    "bytes": 2808
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-polishing\\static\\fragments\\section\\title.md",
+    "package": "skills/nature-polishing/static/fragments/section/title.md",
+    "bytes": 645
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\agents\\openai.yaml",
+    "package": "skills/nature-shared/agents/openai.yaml",
+    "bytes": 277
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\consistency-sweep.md",
+    "package": "skills/nature-shared/core/consistency-sweep.md",
+    "bytes": 7783
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\discussion-argument-language.md",
+    "package": "skills/nature-shared/core/discussion-argument-language.md",
+    "bytes": 9457
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\ethics.md",
+    "package": "skills/nature-shared/core/ethics.md",
+    "bytes": 3424
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\main-text-discipline.md",
+    "package": "skills/nature-shared/core/main-text-discipline.md",
+    "bytes": 9168
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\nature-abstract.md",
+    "package": "skills/nature-shared/core/nature-abstract.md",
+    "bytes": 7951
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\nature-introduction.md",
+    "package": "skills/nature-shared/core/nature-introduction.md",
+    "bytes": 7680
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\nature-results-discussion.md",
+    "package": "skills/nature-shared/core/nature-results-discussion.md",
+    "bytes": 10288
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\paper-type-taxonomy.md",
+    "package": "skills/nature-shared/core/paper-type-taxonomy.md",
+    "bytes": 2435
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\reader-workflow.md",
+    "package": "skills/nature-shared/core/reader-workflow.md",
+    "bytes": 977
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\research-compliance.md",
+    "package": "skills/nature-shared/core/research-compliance.md",
+    "bytes": 7717
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\core\\terminology-ledger.md",
+    "package": "skills/nature-shared/core/terminology-ledger.md",
+    "bytes": 2768
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\journal-formats\\nat-comms.md",
+    "package": "skills/nature-shared/journal-formats/nat-comms.md",
+    "bytes": 7045
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\journal-formats\\nature-machine-intelligence.md",
+    "package": "skills/nature-shared/journal-formats/nature-machine-intelligence.md",
+    "bytes": 18975
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\journal-formats\\nature.md",
+    "package": "skills/nature-shared/journal-formats/nature.md",
+    "bytes": 13555
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\manifest.yaml",
+    "package": "skills/nature-shared/manifest.yaml",
+    "bytes": 4512
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\README.md",
+    "package": "skills/nature-shared/README.md",
+    "bytes": 3351
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\README_EN.md",
+    "package": "skills/nature-shared/README_EN.md",
+    "bytes": 3441
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\scripts\\check_consistency.py",
+    "package": "skills/nature-shared/scripts/check_consistency.py",
+    "bytes": 9197
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\SKILL.md",
+    "package": "skills/nature-shared/SKILL.md",
+    "bytes": 2130
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-shared\\tests\\test_check_consistency.py",
+    "package": "skills/nature-shared/tests/test_check_consistency.py",
+    "bytes": 2346
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\SKILL.md",
+    "archive_only": "wordpolish/SKILL.md",
+    "bytes": 5878
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\agents\\wordpolish.md",
+    "archive_only": "wordpolish/agents/wordpolish.md",
+    "bytes": 5888
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\references\\routing-table.md",
+    "archive_only": "wordpolish/references/routing-table.md",
+    "bytes": 6840
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\references\\chain-rules.md",
+    "archive_only": "wordpolish/references/chain-rules.md",
+    "bytes": 7370
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\references\\humanization-guidelines.md",
+    "archive_only": "wordpolish/references/humanization-guidelines.md",
+    "bytes": 2987
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\references\\sub-skills-catalog.md",
+    "archive_only": "wordpolish/references/sub-skills-catalog.md",
+    "bytes": 7662
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\references\\wordpolish-design.md",
+    "archive_only": "wordpolish/references/wordpolish-design.md",
+    "bytes": 3647
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\de-ai-writing\\SKILL.md",
+    "archive_only": "wordpolish/skills/de-ai-writing/SKILL.md",
+    "bytes": 5123
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\de-ai-writing\\references\\ai-trace-detector.md",
+    "archive_only": "wordpolish/skills/de-ai-writing/references/ai-trace-detector.md",
+    "bytes": 73540
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\de-ai-writing\\references\\ai-trace-index.md",
+    "archive_only": "wordpolish/skills/de-ai-writing/references/ai-trace-index.md",
+    "bytes": 2363
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\de-ai-writing\\references\\translation-guardrails.md",
+    "archive_only": "wordpolish/skills/de-ai-writing/references/translation-guardrails.md",
+    "bytes": 3731
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\humanizer-zh-academic\\LICENSE",
+    "archive_only": "wordpolish/skills/humanizer-zh-academic/LICENSE",
+    "bytes": 1095
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\humanizer-zh-academic\\README.md",
+    "archive_only": "wordpolish/skills/humanizer-zh-academic/README.md",
+    "bytes": 5887
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\humanizer-zh-academic\\SKILL.md",
+    "archive_only": "wordpolish/skills/humanizer-zh-academic/SKILL.md",
+    "bytes": 17618
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\wordpolish\\skills\\humanizer-zh-academic\\SKILL_full.md",
+    "archive_only": "wordpolish/skills/humanizer-zh-academic/SKILL_full.md",
+    "bytes": 29729
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\agents\\openai.yaml",
+    "package": "skills/nature-statistics/agents/openai.yaml",
+    "bytes": 258
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\manifest.yaml",
+    "package": "skills/nature-statistics/manifest.yaml",
+    "bytes": 2148
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\README.md",
+    "package": "skills/nature-statistics/README.md",
+    "bytes": 2453
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\README_EN.md",
+    "package": "skills/nature-statistics/README_EN.md",
+    "bytes": 2889
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\references\\common-failure-modes.md",
+    "package": "skills/nature-statistics/references/common-failure-modes.md",
+    "bytes": 4206
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\references\\figure-statistics.md",
+    "package": "skills/nature-statistics/references/figure-statistics.md",
+    "bytes": 2905
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\references\\nature-article-requirements.md",
+    "package": "skills/nature-statistics/references/nature-article-requirements.md",
+    "bytes": 3420
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\references\\reviewer-checklist.md",
+    "package": "skills/nature-statistics/references/reviewer-checklist.md",
+    "bytes": 3591
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\references\\source-basis.md",
+    "package": "skills/nature-statistics/references/source-basis.md",
+    "bytes": 3638
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\references\\statistical-reporting.md",
+    "package": "skills/nature-statistics/references/statistical-reporting.md",
+    "bytes": 4037
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-statistics\\SKILL.md",
+    "package": "skills/nature-statistics/SKILL.md",
+    "bytes": 8728
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-data\\SKILL.md",
+    "archive_only": "nature-data/SKILL.md",
+    "bytes": 5243
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-data\\manifest.yaml",
+    "archive_only": "nature-data/manifest.yaml",
+    "bytes": 2333
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-data\\static\\core\\workflow.md",
+    "archive_only": "nature-data/static/core/workflow.md",
+    "bytes": 1564
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-data\\references\\repository-and-identifiers.md",
+    "archive_only": "nature-data/references/repository-and-identifiers.md",
+    "bytes": 4390
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-data\\references\\fair-metadata-checklist.md",
+    "archive_only": "nature-data/references/fair-metadata-checklist.md",
+    "bytes": 4649
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-data\\references\\statement-patterns.md",
+    "archive_only": "nature-data/references/statement-patterns.md",
+    "bytes": 8088
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-figure\\SKILL.md",
+    "archive_only": "nature-figure/SKILL.md",
+    "bytes": 13628
+  },
+  {
+    "source": "D:\\Codex\\.codex\\skills\\nature-figure\\references\\multipanel-evidence-architecture.md",
+    "archive_only": "nature-figure/references/multipanel-evidence-architecture.md",
+    "bytes": 12732
+  }
+]

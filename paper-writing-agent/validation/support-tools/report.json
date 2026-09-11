@@ -1,0 +1,1 @@
+{"title": "Synthetic manuscript check", "author": "Synthetic test", "blocks": [{"type": "heading", "text": "Results"}, {"text": "The risk ratio was 0.67 (95% CI, 0.35–1.26)."}, {"type": "table", "rows": [["Group", "Events"], ["A", "12"], ["B", "18"]]}]}

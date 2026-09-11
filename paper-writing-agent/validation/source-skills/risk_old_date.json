@@ -1,0 +1,350 @@
+{
+  "status": "clear",
+  "checked_on": "1900-01-01",
+  "snapshot_file": "risk_fixture.md",
+  "snapshot_through": "2026-07",
+  "risk_entries": [
+    {
+      "category": "CAS warning list",
+      "journal_name": "Computers & Electrical Engineering",
+      "issns": [
+        "00457906"
+      ],
+      "reason": "论文工厂"
+    },
+    {
+      "category": "CAS warning list",
+      "journal_name": "Natural Resources Forum",
+      "issns": [
+        "01650203"
+      ],
+      "reason": "论文工厂"
+    },
+    {
+      "category": "CAS warning list",
+      "journal_name": "Numerical Heat Transfer Part A—Applications",
+      "issns": [
+        "10407782"
+      ],
+      "reason": "论文工厂"
+    },
+    {
+      "category": "CAS warning list",
+      "journal_name": "Scalable Computing: Practice and Experience",
+      "issns": [
+        "18951767"
+      ],
+      "reason": "论文工厂"
+    },
+    {
+      "category": "CAS warning list",
+      "journal_name": "Wireless Personal Communications",
+      "issns": [
+        "09296212"
+      ],
+      "reason": "论文工厂"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Alexandria Engineering Journal",
+      "issns": [
+        "11100168"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Annals of Medicine and Surgery",
+      "issns": [
+        "20490801"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Applied and Computational Mathematics",
+      "issns": [
+        "16833511"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Avances en Ciencias e Ingenieria",
+      "issns": [
+        "07188706"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Balneo and PRM Research Journal",
+      "issns": [
+        "27348458"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Bangladesh Journal of Medical Science",
+      "issns": [
+        "22234721"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Biomedicine & Pharmacotherapy",
+      "issns": [
+        "07533322"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Civil and Environmental Engineering",
+      "issns": [
+        "13365835"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Environmental Toxicology",
+      "issns": [
+        "15204081"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Frontiers in Energy Research",
+      "issns": [
+        "2296598X"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Genetics and Molecular Research",
+      "issns": [
+        "16765680"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "IEEE Transactions on Intelligent Vehicles",
+      "issns": [
+        "23798858"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Engineering and Geosciences",
+      "issns": [
+        "25480960"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Power and Energy Systems",
+      "issns": [
+        "10783466"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Surgery",
+      "issns": [
+        "17439191"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Surgery Case Reports",
+      "issns": [
+        "22102612"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Surgery Open",
+      "issns": [
+        "24058572"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Surgery Protocols",
+      "issns": [
+        "24683574"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of Surgery: Oncology",
+      "issns": [
+        "24713864"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "International Journal of e-Health and Medical Communications",
+      "issns": [
+        "1947315X"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Journal of Agricultural Extension",
+      "issns": [
+        "1119944X"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Journal of Discrete Mathematical Sciences & Cryptography",
+      "issns": [
+        "09720529"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Journal of Intelligent & Fuzzy Systems",
+      "issns": [
+        "10641246"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Journal of Interdisciplinary Mathematics",
+      "issns": [
+        "09720502"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "New Materials Compounds and Applications",
+      "issns": [
+        "25217194"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Optical and Quantum Electronics",
+      "issns": [
+        "03068919"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Revue Roumaine des Sciences Techniques—Serie Electrotechnique et Energetique",
+      "issns": [
+        "00354066"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "Soft Computing",
+      "issns": [
+        "14327643"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "TWMS Journal of Applied and Engineering Mathematics",
+      "issns": [
+        "21461147"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR On Hold",
+      "journal_name": "TWMS Journal of Pure and Applied Mathematics",
+      "issns": [
+        "20762585"
+      ],
+      "reason": "On Hold"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "Action Learning",
+      "issns": [],
+      "reason": "Self Citation（期刊自引异常）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "Aestimum",
+      "issns": [],
+      "reason": "Stacking（引文堆叠）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "Aging Medicine and Healthcare",
+      "issns": [],
+      "reason": "Stacking（引文堆叠）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "Avances en Ciencias e Ingenieria",
+      "issns": [],
+      "reason": "Self Citation（期刊自引异常）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "Balneo and PRM Research Journal",
+      "issns": [],
+      "reason": "Self Citation（期刊自引异常）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "International Journal of Power and Energy Systems",
+      "issns": [],
+      "reason": "Self Citation（期刊自引异常）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "International Journal of e-Health and Medical Communications",
+      "issns": [],
+      "reason": "Stacking（引文堆叠）"
+    },
+    {
+      "category": "JCR Suppressed",
+      "journal_name": "New Materials Compounds and Applications",
+      "issns": [],
+      "reason": "Stacking（引文堆叠）"
+    }
+  ],
+  "candidate_count": 1,
+  "candidate_fingerprint": "4a467c84681558573c8e7df678efd16496dab4e8fed19ed7d6a7ddde3a8565fb",
+  "risk_entry_counts": {
+    "JCR On Hold": 30,
+    "JCR Suppressed": 8,
+    "CAS warning list": 5
+  },
+  "match_counts": {
+    "JCR On Hold": 0,
+    "JCR Suppressed": 0,
+    "CAS warning list": 0
+  },
+  "matches": [],
+  "confirmation": "已使用指定历史快照核对全部 1 本候选期刊：JCR On Hold 命中 0 本；JCR Suppressed 命中 0 本；CAS warning list 命中 0 本。此确认仅限该名单统计截止 2026-07 的记录，不代表官方当前状态。"
+}

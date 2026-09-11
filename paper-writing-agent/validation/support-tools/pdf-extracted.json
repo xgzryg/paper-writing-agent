@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\validation\\support-tools\\sample.pdf",
+  "page_count": 2,
+  "status": "text_extracted_not_visually_verified",
+  "pages": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC DATA: risk ratio 0.67, confidence interval 0.35 to 1.26.\nThis is a test page for evidence extraction and page rendering.\n",
+      "characters": 130,
+      "needs_visual_or_ocr_check": false
+    },
+    {
+      "page": 2,
+      "text": "Page 2: 12 events among 60 participants, versus 18 among 60.\n",
+      "characters": 60,
+      "needs_visual_or_ocr_check": true
+    }
+  ]
+}

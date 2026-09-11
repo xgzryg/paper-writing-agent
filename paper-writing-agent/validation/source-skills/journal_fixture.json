@@ -1,0 +1,40 @@
+{
+  "paper_title": "Synthetic validation fixture only",
+  "research_date": "2026-09-11",
+  "expected_journal_count": 1,
+  "profile": [],
+  "groups": [
+    {
+      "id": "q1-journals",
+      "title": "测试组",
+      "journals": [
+        {
+          "rank": 1,
+          "journal_name": "Synthetic Validation Journal",
+          "journal_url": "https://example.invalid/",
+          "issns": [
+            "1234-5678"
+          ],
+          "fit": "纯测试夹具，不是期刊推荐",
+          "jif": "无真实指标",
+          "quartile": "测试分组",
+          "field_ranking": "无真实排名",
+          "articles_per_year": "无真实发文量",
+          "oa_apc": "无真实费用",
+          "first_decision": "未提供",
+          "first_peer_review_comments": "未提供",
+          "evidence_status": "合成测试数据",
+          "sources": {}
+        }
+      ]
+    }
+  ],
+  "selection_notes": [
+    "仅检查软件，不验证真实期刊信息。"
+  ],
+  "source_scope": [
+    "Synthetic fixture"
+  ],
+  "submission_order": [],
+  "uncertainties": []
+}

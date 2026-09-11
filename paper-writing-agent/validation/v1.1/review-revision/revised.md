@@ -1,1 +1,0 @@
-The exposure was associated with the outcome.

@@ -1,9 +1,0 @@
-{
-  "manuscript": "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\loop-state\\test_reviewer_cannot_be_reviser_or_self_accept\\original.md",
-  "max_rounds": 1,
-  "novelty": false,
-  "human_checkpoint": false,
-  "network_allowed": true,
-  "goal": "实质问题已修正或有证据回应，剩余限制准确披露，当前稿经再审且无新增事实或一致性错误。",
-  "visible_files": []
-}

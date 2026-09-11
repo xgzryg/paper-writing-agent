@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+/paper-writing-agent/skills/journal-if-lookup/data/2025IF.xlsx
+/paper-writing-agent/skills/journal-if-lookup/data/journals_index.json

@@ -1,1 +1,0 @@
-An observational study proves prevention; HR 0.80 (95% CI 0.70–0.91).

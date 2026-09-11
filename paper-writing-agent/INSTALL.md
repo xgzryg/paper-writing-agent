@@ -1,6 +1,6 @@
 # 安装与使用
 
-这是一个 Codex skill 形式的综合 agent，调用名为 `$paper-writing-agent`。ZIP 顶层只有 `paper-writing-agent/`，其内部包含所有功能分支，不需要把每个子技能另行散装。
+这是 v1.1.1 版本的论文写作综合 agent，以 Codex skill 形式提供，调用名为 `$paper-writing-agent`。ZIP 顶层只有 `paper-writing-agent/`，其内部包含所有功能分支，不需要把每个子技能另行散装。
 
 ## 手动安装
 
@@ -24,7 +24,7 @@ python <解压目录>/paper-writing-agent/scripts/install.py --destination <目�
 
 ## 使用示例
 
-v1.1 已内置本机来源的审稿/返修专家、文献检索及 Nature 写作润色资源；原重复能力通过任务路由融合，不需要额外安装 Aequitas、Veritas、litorchestrator 或 Nature shared。具体见 [融合路由](references/integration-v1.1.md)。
+本包内置 47 个直接功能分支和 2 个嵌套支持技能，覆盖审稿、返修、文献检索及 Nature 风格写作润色。主入口根据任务选择分支，无需分别安装其他 agent 或 skill。具体见[融合路由](references/integration-v1.1.md)。
 
 - `请使用 $paper-writing-agent，精读这篇研究论文，逐图逐表解释，附原文页码。`
 - `请使用 $paper-writing-agent，根据这批真实结果写 Methods，先给大纲，缺参数明确列出。`
@@ -42,6 +42,8 @@ v1.1 已内置本机来源的审稿/返修专家、文献检索及 Nature 写作
 
 ## 包含与不包含
 
-包内提供所有 agent/skill 文件与脚本，原始资料供本人追溯。Python 解释器、公共运行库、Word/LibreOffice、联网与宿主连接器分别见 [运行依赖](references/dependencies.md)。主入口不调用构建机器其他本地 agent/skill；本包不是离线模型或商业数据库客户端。
+包内提供运行所需的 agent/skill 文件、脚本、模板与共享规则。Python 解释器、公共运行库、Word/LibreOffice、联网与宿主连接器分别见[运行依赖](references/dependencies.md)。主入口不调用安装目录之外的其他本地 agent/skill；本包不包含模型或数据库账号。
 
-材料清单与构建依据在 `documentation/`；来源原件在 `sources/`，其中旧指令和示例不作为运行规则。原作者材料的署名与既有权利保留，本次个人整合不授予新的公开再分发或商业转授权。
+期刊指标查询支持用户显式提供、具有使用权限的本地数据；也可通过可访问的来源核验现行指标。安装包不附带个人 JCR 数据副本。没有有效数据或当前访问权限时，agent 会保留未核实状态，不编造指标。
+
+第三方组件随附的署名和许可继续适用，见[组件说明](references/provenance.md)。

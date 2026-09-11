@@ -1,254 +1,212 @@
 {
   "name": "paper-writing-agent",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "internal_skill_count": 47,
-  "original_source_count": 27,
-  "pdf_pages": 117,
   "routes": [
     {
       "slug": "academic-literature-search",
-      "function": "学术检索、引用身份核验与多数据库补充；记录已查/未查来源",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "学术检索、引用身份核验与多数据库补充；记录已查/未查来源"
     },
     {
       "slug": "academic-peer-review",
-      "function": "同行预审与期刊校准",
-      "source": "提示词 15；原审稿包"
+      "function": "同行预审与期刊校准"
     },
     {
       "slug": "aequitas",
-      "function": "按可见材料开展多视角审稿，定位实质问题、证据与最小修正",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "按可见材料开展多视角审稿，定位实质问题、证据与最小修正"
     },
     {
       "slug": "calder-code-reviewer",
-      "function": "审核论文代码的复现、数据划分、泄漏、公平性和结果一致性",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "审核论文代码的复现、数据划分、泄漏、公平性和结果一致性"
     },
     {
       "slug": "code-review-academic",
-      "function": "学术代码审计；内置6组只读ReproFlow规范作为核查依据",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "学术代码审计；内置6组只读学术代码审计参考规范"
     },
     {
       "slug": "generate-paper-highlights",
-      "function": "Highlights",
-      "source": "提示词 9；原Highlights包"
+      "function": "Highlights"
     },
     {
       "slug": "journal-if-lookup",
-      "function": "按期刊名、缩写或ISSN查询本地历史JCR资料；现行指标另核查",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "按期刊名、缩写或ISSN查询用户显式提供的数据，或联网核验现行指标；记录年份与来源"
     },
     {
       "slug": "literature-workflow-orchestrator",
-      "function": "组织检索、筛选、精读、证据整理和综述阶段的衔接",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "组织检索、筛选、精读、证据整理和综述阶段的衔接"
     },
     {
       "slug": "litorchestrator",
-      "function": "文献任务总调度，按问题选用包内检索、阅读、下载及引用功能",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "文献任务总调度，按问题选用包内检索、阅读、下载及引用功能"
     },
     {
       "slug": "nature-polishing",
-      "function": "按语言、论文类型及章节选择Nature风格润色资源，保护研究事实",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "按语言、论文类型及章节选择Nature风格润色资源，保护研究事实"
     },
     {
       "slug": "nature-reader",
-      "function": "论文全文、图表、补充材料与公式精读，标明实际阅读范围",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "论文全文、图表、补充材料与公式精读，标明实际阅读范围"
     },
     {
       "slug": "nature-response",
-      "function": "Nature风格逐条回应、修订策略及正文/回复一致性检查",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "Nature风格逐条回应、修订策略及正文/回复一致性检查"
     },
     {
       "slug": "nature-review-studio",
-      "function": "应用现有聚合审稿规则；生成同步Word/Markdown报告，提取任务内材料",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "应用现有聚合审稿规则；生成同步Word/Markdown报告，提取任务内材料"
     },
     {
       "slug": "nature-reviewer",
-      "function": "区分重大/次要意见、证据位置与真实阻塞；支持分开审稿再综合",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "区分重大/次要意见、证据位置与真实阻塞；支持分开审稿再综合"
     },
     {
       "slug": "nature-shared",
-      "function": "供Nature分支共享术语、结构、统计、图表和数据可用性写作资源",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "供Nature分支共享术语、结构、统计、图表和数据可用性写作资源"
     },
     {
       "slug": "nature-statistics",
-      "function": "核查统计方法与结果报告的完整性、准确性和证据边界",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "核查统计方法与结果报告的完整性、准确性和证据边界"
     },
     {
       "slug": "nature-writing",
-      "function": "按论文类型、章节和语言路由Nature写作框架及主文/补充材料组织",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "按论文类型、章节和语言路由Nature写作框架及主文/补充材料组织"
     },
     {
       "slug": "paper-compression",
-      "function": "精简与缩写",
-      "source": "提示词 13"
+      "function": "精简与缩写"
     },
     {
       "slug": "paper-discussion",
-      "function": "讨论",
-      "source": "提示词 7"
+      "function": "讨论"
     },
     {
       "slug": "paper-documents",
-      "function": "Word创建编辑与修订",
-      "source": "原skill Word依赖；指南 6–10、14–17 页"
+      "function": "Word创建编辑与修订"
     },
     {
       "slug": "paper-graphical-abstract",
-      "function": "图形摘要",
-      "source": "提示词 10"
+      "function": "图形摘要"
     },
     {
       "slug": "paper-introduction",
-      "function": "前言框架、综述与正文",
-      "source": "提示词 4"
+      "function": "前言框架、综述与正文"
     },
     {
       "slug": "paper-literature-reading",
-      "function": "检索、精读、Review证据与思维导图",
-      "source": "提示词 2；指南 7、24–27 页"
+      "function": "检索、精读、Review证据与思维导图"
     },
     {
       "slug": "paper-methods",
-      "function": "方法章节",
-      "source": "提示词 5"
+      "function": "方法章节"
     },
     {
       "slug": "paper-novelty-assessment",
-      "function": "PubMed宽窄查询、种子近邻和逐篇比较，判断创新主张的证据支持",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "PubMed宽窄查询、种子近邻和逐篇比较，判断创新主张的证据支持"
     },
     {
       "slug": "paper-pdf",
-      "function": "PDF提取与页面核验",
-      "source": "原skill PDF依赖；指南 7、13–17 页"
+      "function": "PDF提取与页面核验"
     },
     {
       "slug": "paper-research-artifacts",
-      "function": "表格、定量图、PPT及交互解释",
-      "source": "指南 14–18、26–30 页"
+      "function": "表格、定量图、PPT及交互解释"
     },
     {
       "slug": "paper-results-legends",
-      "function": "结果与图注",
-      "source": "提示词 6"
+      "function": "结果与图注"
     },
     {
       "slug": "paper-review-revision-loop",
-      "function": "显式开启真实审稿/返修子agent往返，保存版本、问题状态和最终再审",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "显式开启真实审稿/返修子agent往返，保存版本、问题状态和最终再审"
     },
     {
       "slug": "paper-reviewer-response",
-      "function": "返修与逐条回复",
-      "source": "提示词 17"
+      "function": "返修与逐条回复"
     },
     {
       "slug": "paper-study-design",
-      "function": "研究设计和图表规划",
-      "source": "提示词 3"
+      "function": "研究设计和图表规划"
     },
     {
       "slug": "paper-title-abstract-conclusion",
-      "function": "标题、摘要、结论与关键词",
-      "source": "提示词 8"
+      "function": "标题、摘要、结论与关键词"
     },
     {
       "slug": "paper-topic-discovery",
-      "function": "选题与语料主题分析",
-      "source": "提示词 1"
+      "function": "选题与语料主题分析"
     },
     {
       "slug": "paper-workspace-operations",
-      "function": "工作区、恢复、代码修复与宿主工具",
-      "source": "指南 1–33 页"
+      "function": "工作区、恢复、代码修复与宿主工具"
     },
     {
       "slug": "peer-review",
-      "function": "补充科研设计、方法、统计、图表和论证的批判性评价",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "补充科研设计、方法、统计、图表和论证的批判性评价"
     },
     {
       "slug": "polish-academic-manuscript",
-      "function": "全文精细润色",
-      "source": "提示词 12；原润色包"
+      "function": "全文精细润色"
     },
     {
       "slug": "proofread-journal-manuscripts",
-      "function": "Proof校对",
-      "source": "提示词 18；原proof包"
+      "function": "Proof校对"
     },
     {
       "slug": "pubmed-database",
-      "function": "实际执行PubMed检索、完整摘要获取和Similar Articles近邻查询",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "实际执行PubMed检索、完整摘要获取和Similar Articles近邻查询"
     },
     {
       "slug": "rebuttal-writing",
-      "function": "解析审稿意见、组织逐条回应，区分已完成修改与待办分析",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "解析审稿意见、组织逐条回应，区分已完成修改与待办分析"
     },
     {
       "slug": "recommend-sci-journals-report",
-      "function": "选刊和HTML报告",
-      "source": "提示词 16；原选刊包"
+      "function": "选刊和HTML报告"
     },
     {
       "slug": "ref-downloader",
-      "function": "解析与核验参考文献，按实际访问条件下载可取得全文并报告缺项",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "解析与核验参考文献，按实际访问条件下载可取得全文并报告缺项"
     },
     {
       "slug": "reproducibility-checklist",
-      "function": "依据实际材料检查数据、代码、环境、方法和可复现性报告",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "依据实际材料检查数据、代码、环境、方法和可复现性报告"
     },
     {
       "slug": "rewrite-academic-overlap",
-      "function": "重复表达改写",
-      "source": "提示词 14；原改写包"
+      "function": "重复表达改写"
     },
     {
       "slug": "translate-academic-manuscript-zh-to-en",
-      "function": "中译英",
-      "source": "提示词 11；原中译英包"
+      "function": "中译英"
     },
     {
       "slug": "veritas-agent",
-      "function": "核对当前稿、图表、统计、引用和审稿意见，整合返修稿与逐条回应",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "核对当前稿、图表、统计、引用和审稿意见，整合返修稿与逐条回应"
     },
     {
       "slug": "wordpolish-academic",
-      "function": "调用两个内置学术文风子技能，压缩模板表达并保留作者声音和事实",
-      "source": "本机来源融合或v1.1新增；详见documentation/v1.1依赖报告"
+      "function": "调用两个内置学术文风子技能，压缩模板表达并保留作者声音和事实"
     },
     {
       "slug": "write-journal-cover-letter",
-      "function": "投稿附信",
-      "source": "提示词 16；原cover letter包"
+      "function": "投稿附信"
     }
   ],
   "nested_support_skill_count": 2,
   "active_entry_count": 50,
-  "features_v1_1": [
+  "scope_note": "Counts include the package root, 47 immediate skills/*/SKILL.md entries and two nested academic writing support skills. Audit references are not active skill entries.",
+  "features": [
     "bundled-review-revision-agents",
     "explicit-real-subagent-loop",
     "pubmed-novelty-evidence",
     "nature-writing-polishing",
     "academic-wordpolish"
   ],
-  "scope_note": "Read-only source archives and ReproFlow audit-source.md files are not active skill entries. Counts include the package root, immediate skills/*/SKILL.md and two nested WordPolish academic skills."
+  "runtime_dependencies": {
+    "bundled_skills": "All adopted agent and skill dependencies are located inside this package.",
+    "host": "An AI host with file access; real subagent delegation is required for the optional review-revision loop.",
+    "libraries": "Python and task-specific public libraries are provided by the host environment; see references/dependencies.md.",
+    "literature": "PubMed and other live literature services require network access and any applicable user access rights.",
+    "journal_data": "Personal JCR datasets are not bundled. Local lookup requires user-supplied data; current metrics may be verified through accessible sources."
+  }
 }

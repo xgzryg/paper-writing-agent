@@ -1,33 +1,15 @@
-"""Build a normalized JSON index from 2025IF.xlsx for fast lookup.
+"""Build a lookup index from an explicitly supplied journal spreadsheet.
 
-This script is part of the journal-if-lookup skill and lives at the skill
-root. It reads only <skill>/data/2025IF.xlsx.
-
-Output: <skill>/data/journals_index.json
+Usage: python build_index.py --data-file project/journals.xlsx
+           --output project/journals_index.json
+No data is bundled and importing this module does not read or write files.
 """
+import argparse
 import json
 import os
 import re
 import sys
 from collections import defaultdict
-import openpyxl
-
-# Resolve paths relative to this script's location so the script is
-# location-independent.
-SKILL_DIR = os.path.dirname(os.path.abspath(__file__))
-OUT_DIR = os.path.join(SKILL_DIR, 'data')
-os.makedirs(OUT_DIR, exist_ok=True)
-
-CANDIDATE_SRCS = [os.path.join(SKILL_DIR, 'data', '2025IF.xlsx')]
-
-
-def find_source():
-    for p in CANDIDATE_SRCS:
-        if os.path.exists(p):
-            return p
-    raise FileNotFoundError(
-        'Could not find 2025IF.xlsx. Tried:\n  ' + '\n  '.join(CANDIDATE_SRCS)
-    )
 
 
 def normalize_text(s):
@@ -65,12 +47,33 @@ def acronym_of(name_norm):
     return acr
 
 
-def main():
-    src = find_source()
+def build_index(src, out_path, sheet='Journals', jif_column=None, source_label=None):
+    if not os.path.isfile(src):
+        raise FileNotFoundError('The supplied spreadsheet is missing. Provide a file you are entitled to use, or use official online verification.')
+    if os.path.exists(out_path):
+        raise FileExistsError('The output already exists; choose a new output path to preserve it.')
+    import openpyxl
     print(f'Loading workbook: {src}')
-    wb = openpyxl.load_workbook(src, data_only=True)
-    ws = wb['Journals']
+    wb = openpyxl.load_workbook(src, data_only=True, read_only=True)
+    if sheet not in wb.sheetnames:
+        wb.close()
+        raise ValueError(f'No worksheet named {sheet!r}; select the correct --sheet.')
+    ws = wb[sheet]
     headers = [c.value for c in ws[1]]
+    if 'Journal name' not in headers:
+        wb.close()
+        raise ValueError('The spreadsheet must include a Journal name column.')
+    if jif_column is None:
+        possible = [h for h in headers if isinstance(h, str) and re.fullmatch(r'(?:\d{4} )?JIF', h)]
+        if len(possible) > 1:
+            wb.close()
+            raise ValueError('Multiple JIF columns exist; choose one with --jif-column.')
+        jif_column = possible[0] if possible else None
+    elif jif_column not in headers:
+        wb.close()
+        raise ValueError(f'The requested JIF column {jif_column!r} does not exist.')
+    year_match = re.fullmatch(r'(\d{4}) JIF', jif_column or '')
+    jif_year = int(year_match.group(1)) if year_match else None
 
     journals = []
     acronym_index = defaultdict(list)  # acronym -> [journal_idx, ...]
@@ -80,9 +83,9 @@ def main():
     abbr_norm_index = {}
 
     for i, row in enumerate(ws.iter_rows(min_row=2, values_only=True)):
-        if not row or not row[1]:
-            continue
         d = dict(zip(headers, row))
+        if not d.get('Journal name'):
+            continue
         # Build a compact record — keep fields that are useful for display
         rec = {
             'rank': d.get('Rank'),
@@ -94,7 +97,9 @@ def main():
             'categories': d.get('Categories'),  # may be 'Multiple' or a single string
             'editions': d.get('Editions'),
             'jcr_year': d.get('JCR year'),
-            'jif': d.get('2025 JIF'),
+            'jif': d.get(jif_column) if jif_column else None,
+            'jif_year': jif_year,
+            'jif_source_column': jif_column,
             'jif_5y': d.get('5-year JIF'),
             'jif_no_self': d.get('JIF without self cites'),
             'jif_quartile': d.get('JIF quartile'),
@@ -152,15 +157,22 @@ def main():
         if an and an not in abbr_norm_index:
             abbr_norm_index[an] = idx
 
+    wb.close()
+    if not journals:
+        raise ValueError('No named journal records were found; no index was written.')
+    for key, values in acronym_index.items():
+        acronym_index[key] = list(dict.fromkeys(values))
     print(f'Indexed {len(journals)} journals')
     print(f'Unique acronyms: {len(acronym_index)}')
     print(f'Unique ISSNs: {len(issn_index)} + {len(eissn_index)} eISSN')
 
     out = {
         'meta': {
-            'source': 'JCR 2025 release',
+            'source': source_label or 'User-provided journal spreadsheet',
             'rows': len(journals),
-            'note': 'Index built from 2025IF.xlsx. Do not edit by hand.',
+            'jif_source_column': jif_column,
+            'jif_year': jif_year,
+            'note': 'Values are copied from the selected spreadsheet; no live verification was performed.',
         },
         'journals': journals,
         'index': {
@@ -171,12 +183,29 @@ def main():
             'abbr_norm': abbr_norm_index,
         },
     }
-    out_path = os.path.join(OUT_DIR, 'journals_index.json')
-    with open(out_path, 'w', encoding='utf-8') as f:
+    os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+    with open(out_path, 'x', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
     size_mb = os.path.getsize(out_path) / 1024 / 1024
     print(f'Wrote {out_path} ({size_mb:.1f} MB)')
+    return out
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description='Index your own journal spreadsheet; no data is bundled.')
+    parser.add_argument('--data-file', required=True, help='Input XLSX file you are entitled to use')
+    parser.add_argument('--output', required=True, help='New JSON output path, preferably in the current project')
+    parser.add_argument('--sheet', default='Journals', help='Worksheet name (default: Journals)')
+    parser.add_argument('--jif-column', help='Exact metric column name, e.g. 2024 JIF; required if several exist')
+    parser.add_argument('--source-label', help='Optional label for the data supplied by the user')
+    args = parser.parse_args(argv)
+    try:
+        build_index(args.data_file, args.output, args.sheet, args.jif_column, args.source_label)
+    except (OSError, ValueError, ImportError) as exc:
+        print(f'Index not created: {exc}', file=sys.stderr)
+        return 2
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

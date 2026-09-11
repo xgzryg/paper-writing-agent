@@ -1,0 +1,1 @@
+Patients were enrolled between January and June 2023. [Before treatment, we obtained blood samples from every participant and determined serum glucose concentrations following a uniform laboratory protocol.] The laboratory team was blinded to the clinical outcome. Glucose concentrations are reported in mmol/L.

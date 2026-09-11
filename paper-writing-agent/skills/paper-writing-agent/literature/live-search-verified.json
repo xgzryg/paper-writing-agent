@@ -1,0 +1,170 @@
+{
+  "source": "NCBI PubMed E-utilities",
+  "command": "search",
+  "started_at_utc": "2026-09-11T13:46:35+00:00",
+  "finished_at_utc": "2026-09-11T13:46:37+00:00",
+  "request_interval_seconds": 0.4,
+  "status": "ok",
+  "search": {
+    "query": "CRISPR[Title/Abstract]",
+    "query_translation": "\"CRISPR\"[Title/Abstract]",
+    "database": "pubmed",
+    "sort": "relevance",
+    "total_hits": 64815,
+    "retstart": 0,
+    "requested_limit": 3,
+    "returned_ids": [
+      "25315507",
+      "30912037",
+      "32528662"
+    ],
+    "returned_count": 3,
+    "results_truncated": true,
+    "warnings": {},
+    "query_errors": {},
+    "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=CRISPR%5BTitle%2FAbstract%5D"
+  },
+  "fetch": {
+    "status": "ok",
+    "requested_pmids": [
+      "25315507",
+      "30912037",
+      "32528662"
+    ],
+    "returned_count": 3,
+    "missing_pmids": [],
+    "failures": [],
+    "missing_note": null
+  },
+  "articles": [
+    {
+      "pmid": "25315507",
+      "doi": "10.1111/febs.13110",
+      "pmcid": null,
+      "title": "Genome modification by CRISPR/Cas9.",
+      "authors": [
+        "Ma Y",
+        "Zhang L",
+        "Huang X"
+      ],
+      "journal": "The FEBS journal",
+      "journal_abbreviation": "FEBS J",
+      "publication_date": {
+        "Year": "2014",
+        "Month": "Dec"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein (Cas)9-mediated genome modification enables us to edit the genomes of a variety of organisms rapidly and efficiently. The advantages of the CRISPR-Cas9 system have made it an increasingly popular genetic engineering tool for biological and therapeutic applications. Moreover, CRISPR-Cas9 has been employed to recruit functional domains that repress/activate gene expression or label specific genomic loci in living cells or organisms, in order to explore developmental mechanisms, gene expression regulation, and animal behavior. One major concern about this system is its specificity; although CRISPR-Cas9-mediated off-target mutation has been broadly studied, more efforts are required to further improve the specificity of CRISPR-Cas9. We will also discuss the potential applications of CRISPR-Cas9.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "Clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein (Cas)9-mediated genome modification enables us to edit the genomes of a variety of organisms rapidly and efficiently. The advantages of the CRISPR-Cas9 system have made it an increasingly popular genetic engineering tool for biological and therapeutic applications. Moreover, CRISPR-Cas9 has been employed to recruit functional domains that repress/activate gene expression or label specific genomic loci in living cells or organisms, in order to explore developmental mechanisms, gene expression regulation, and animal behavior. One major concern about this system is its specificity; although CRISPR-Cas9-mediated off-target mutation has been broadly studied, more efforts are required to further improve the specificity of CRISPR-Cas9. We will also discuss the potential applications of CRISPR-Cas9."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "Animals",
+        "CRISPR-Associated Proteins",
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "Genetic Engineering",
+        "Humans",
+        "RNA Editing"
+      ],
+      "publication_status": "ppublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25315507/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    },
+    {
+      "pmid": "30912037",
+      "doi": "10.1007/978-1-4939-9170-9_2",
+      "pmcid": null,
+      "title": "Tracking CRISPR's Footprints.",
+      "authors": [
+        "Lin L",
+        "Luo Y"
+      ],
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "journal_abbreviation": "Methods Mol Biol",
+      "publication_date": {
+        "Year": "2019"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "abstract": "The programmable clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated 9 (Cas9) and CRISPR-Cas9-derived gene editing and manipulation tools have revolutionized biomedical research over the past few years. One important category of assisting technologies in CRISPR gene editing is methods used for detecting and quantifying indels (deletions or insertions). These indels are caused by the repair of CRISPR-Cas9-introduced DNA double-stranded breaks (DBSs), known as CRISPR's DNA cleavage footprints. In addition, CRISPR-Cas9 can also leave footprints to the DNA without introducing DSBs, known as CRISPR's DNA-binding footprints. The indel tracking methods have contributed greatly to the improvement of CRISPR-Cas9 activity and specificity. Here, we review and discuss strategies developed over that past few years to track the CRISPR's footprints, their advantages, and limitations.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "The programmable clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated 9 (Cas9) and CRISPR-Cas9-derived gene editing and manipulation tools have revolutionized biomedical research over the past few years. One important category of assisting technologies in CRISPR gene editing is methods used for detecting and quantifying indels (deletions or insertions). These indels are caused by the repair of CRISPR-Cas9-introduced DNA double-stranded breaks (DBSs), known as CRISPR's DNA cleavage footprints. In addition, CRISPR-Cas9 can also leave footprints to the DNA without introducing DSBs, known as CRISPR's DNA-binding footprints. The indel tracking methods have contributed greatly to the improvement of CRISPR-Cas9 activity and specificity. Here, we review and discuss strategies developed over that past few years to track the CRISPR's footprints, their advantages, and limitations."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "DNA Breaks, Double-Stranded",
+        "Gene Deletion",
+        "Gene Editing",
+        "Mutagenesis, Insertional"
+      ],
+      "publication_status": "ppublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30912037/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    },
+    {
+      "pmid": "32528662",
+      "doi": "10.12688/f1000research.23185.2",
+      "pmcid": "PMC7265575",
+      "title": "Gene editing in dermatology: Harnessing CRISPR for the treatment of cutaneous disease.",
+      "authors": [
+        "Baker C",
+        "Hayden MS"
+      ],
+      "journal": "F1000Research",
+      "journal_abbreviation": "F1000Res",
+      "publication_date": {
+        "Year": "2020"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "abstract": "The discovery of the Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) system has revolutionized gene editing research. Through the repurposing of programmable RNA-guided CRISPR-associated (Cas) nucleases, CRISPR-based genome editing systems allow for the precise modification of specific sites in the human genome and inspire novel approaches for the study and treatment of inherited and acquired human diseases. Here, we review how CRISPR technologies have stimulated key advances in dermatologic research.  We discuss the role of CRISPR in genome editing for cutaneous disease and highlight studies on the use of CRISPR-Cas technologies for genodermatoses, cutaneous viruses and bacteria, and melanoma. Additionally, we examine key limitations of current CRISPR technologies, including the challenges these limitations pose for the widespread therapeutic application of CRISPR-based therapeutics.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "The discovery of the Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) system has revolutionized gene editing research. Through the repurposing of programmable RNA-guided CRISPR-associated (Cas) nucleases, CRISPR-based genome editing systems allow for the precise modification of specific sites in the human genome and inspire novel approaches for the study and treatment of inherited and acquired human diseases. Here, we review how CRISPR technologies have stimulated key advances in dermatologic research.  We discuss the role of CRISPR in genome editing for cutaneous disease and highlight studies on the use of CRISPR-Cas technologies for genodermatoses, cutaneous viruses and bacteria, and melanoma. Additionally, we examine key limitations of current CRISPR technologies, including the challenges these limitations pose for the widespread therapeutic application of CRISPR-based therapeutics."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "CRISPR-Cas Systems",
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "Dermatology",
+        "Gene Editing",
+        "Genetic Therapy",
+        "Humans",
+        "Skin Diseases"
+      ],
+      "publication_status": "epublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32528662/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,50 @@
+{
+  "status": "awaiting_revision",
+  "version": "v000",
+  "current_manuscript": "versions\\v000.md",
+  "visible_files": [],
+  "revision_count": 0,
+  "completed_rounds": 0,
+  "review_count": 1,
+  "last_review": {
+    "path": "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\loop-state\\test_offline_novelty_cannot_be_pass\\run\\review-v000.json",
+    "agent_id": "fixture-reviewer",
+    "version": "v000",
+    "reason": "Synthetic test evidence",
+    "novelty_status": "offline"
+  },
+  "pending_revision": null,
+  "issues": [],
+  "config": {
+    "manuscript": "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\loop-state\\test_offline_novelty_cannot_be_pass\\original.md",
+    "max_rounds": 1,
+    "novelty": true,
+    "human_checkpoint": false,
+    "network_allowed": true,
+    "goal": "实质问题已修正或有证据回应，剩余限制准确披露，当前稿经再审且无新增事实或一致性错误。",
+    "visible_files": []
+  },
+  "history": [
+    {
+      "at": "2026-09-11T13:44:43.532891+00:00",
+      "event": "initialized",
+      "version": "v000"
+    },
+    {
+      "at": "2026-09-11T13:44:43.542140+00:00",
+      "event": "review_recorded",
+      "agent_id": "fixture-reviewer",
+      "version": "v000",
+      "report": "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\loop-state\\test_offline_novelty_cannot_be_pass\\run\\review-v000.json",
+      "status": "needs_input"
+    },
+    {
+      "at": "2026-09-11T13:44:43.543659+00:00",
+      "event": "resumed",
+      "reason": "Synthetic authorization and bibliography now available",
+      "status": "awaiting_revision"
+    }
+  ],
+  "created_at": "2026-09-11T13:44:43.532891+00:00",
+  "updated_at": "2026-09-11T13:44:43.543659+00:00"
+}

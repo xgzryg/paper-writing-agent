@@ -1,0 +1,228 @@
+{
+  "source": "NCBI PubMed E-utilities",
+  "command": "related",
+  "started_at_utc": "2026-09-11T13:46:58+00:00",
+  "finished_at_utc": "2026-09-11T13:47:01+00:00",
+  "request_interval_seconds": 0.4,
+  "status": "ok",
+  "seed_records": [
+    {
+      "pmid": "25315507",
+      "doi": "10.1111/febs.13110",
+      "pmcid": null,
+      "title": "Genome modification by CRISPR/Cas9.",
+      "authors": [
+        "Ma Y",
+        "Zhang L",
+        "Huang X"
+      ],
+      "journal": "The FEBS journal",
+      "journal_abbreviation": "FEBS J",
+      "publication_date": {
+        "Year": "2014",
+        "Month": "Dec"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein (Cas)9-mediated genome modification enables us to edit the genomes of a variety of organisms rapidly and efficiently. The advantages of the CRISPR-Cas9 system have made it an increasingly popular genetic engineering tool for biological and therapeutic applications. Moreover, CRISPR-Cas9 has been employed to recruit functional domains that repress/activate gene expression or label specific genomic loci in living cells or organisms, in order to explore developmental mechanisms, gene expression regulation, and animal behavior. One major concern about this system is its specificity; although CRISPR-Cas9-mediated off-target mutation has been broadly studied, more efforts are required to further improve the specificity of CRISPR-Cas9. We will also discuss the potential applications of CRISPR-Cas9.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "Clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein (Cas)9-mediated genome modification enables us to edit the genomes of a variety of organisms rapidly and efficiently. The advantages of the CRISPR-Cas9 system have made it an increasingly popular genetic engineering tool for biological and therapeutic applications. Moreover, CRISPR-Cas9 has been employed to recruit functional domains that repress/activate gene expression or label specific genomic loci in living cells or organisms, in order to explore developmental mechanisms, gene expression regulation, and animal behavior. One major concern about this system is its specificity; although CRISPR-Cas9-mediated off-target mutation has been broadly studied, more efforts are required to further improve the specificity of CRISPR-Cas9. We will also discuss the potential applications of CRISPR-Cas9."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "Animals",
+        "CRISPR-Associated Proteins",
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "Genetic Engineering",
+        "Humans",
+        "RNA Editing"
+      ],
+      "publication_status": "ppublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25315507/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    }
+  ],
+  "seed_results": [
+    {
+      "seed_pmid": "25315507",
+      "status": "ok",
+      "linkname": "pubmed_pubmed",
+      "returned_by_ncbi": 740,
+      "selected_count": 3,
+      "selected_limit": 3,
+      "results_truncated": true,
+      "links": [
+        {
+          "pmid": "25728500",
+          "similarity_score": 50349498
+        },
+        {
+          "pmid": "24651067",
+          "similarity_score": 45116026
+        },
+        {
+          "pmid": "25827103",
+          "similarity_score": 43612881
+        }
+      ],
+      "score_interpretation": "PubMed similarity ranking for retrieval; not novelty, validity, or research quality."
+    }
+  ],
+  "articles": [
+    {
+      "pmid": "25728500",
+      "doi": "10.1111/febs.13248",
+      "pmcid": null,
+      "title": "Genetic screens and functional genomics using CRISPR/Cas9 technology.",
+      "authors": [
+        "Hartenian E",
+        "Doench JG"
+      ],
+      "journal": "The FEBS journal",
+      "journal_abbreviation": "FEBS J",
+      "publication_date": {
+        "Year": "2015",
+        "Month": "Apr"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "abstract": "Functional genomics attempts to understand the genome by perturbing the flow of information from DNA to RNA to protein, in order to learn how gene dysfunction leads to disease. CRISPR/Cas9 technology is the newest tool in the geneticist's toolbox, allowing researchers to edit DNA with unprecedented ease, speed and accuracy, and representing a novel means to perform genome-wide genetic screens to discover gene function. In this review, we first summarize the discovery and characterization of CRISPR/Cas9, and then compare it to other genome engineering technologies. We discuss its initial use in screening applications, with a focus on optimizing on-target activity and minimizing off-target effects. Finally, we comment on future challenges and opportunities afforded by this technology.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "Functional genomics attempts to understand the genome by perturbing the flow of information from DNA to RNA to protein, in order to learn how gene dysfunction leads to disease. CRISPR/Cas9 technology is the newest tool in the geneticist's toolbox, allowing researchers to edit DNA with unprecedented ease, speed and accuracy, and representing a novel means to perform genome-wide genetic screens to discover gene function. In this review, we first summarize the discovery and characterization of CRISPR/Cas9, and then compare it to other genome engineering technologies. We discuss its initial use in screening applications, with a focus on optimizing on-target activity and minimizing off-target effects. Finally, we comment on future challenges and opportunities afforded by this technology."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "CRISPR-Associated Proteins",
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "Gene Expression Regulation",
+        "Genetic Engineering",
+        "Genetic Testing",
+        "Genome, Human",
+        "Humans",
+        "RNA Editing"
+      ],
+      "publication_status": "ppublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25728500/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    },
+    {
+      "pmid": "24651067",
+      "doi": "10.1093/hmg/ddu125",
+      "pmcid": null,
+      "title": "CRISPR/Cas9 for genome editing: progress, implications and challenges.",
+      "authors": [
+        "Zhang F",
+        "Wen Y",
+        "Guo X"
+      ],
+      "journal": "Human molecular genetics",
+      "journal_abbreviation": "Hum Mol Genet",
+      "publication_date": {
+        "Year": "2014",
+        "Month": "Sep",
+        "Day": "15"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated (Cas) protein 9 system provides a robust and multiplexable genome editing tool, enabling researchers to precisely manipulate specific genomic elements, and facilitating the elucidation of target gene function in biology and diseases. CRISPR/Cas9 comprises of a nonspecific Cas9 nuclease and a set of programmable sequence-specific CRISPR RNA (crRNA), which can guide Cas9 to cleave DNA and generate double-strand breaks at target sites. Subsequent cellular DNA repair process leads to desired insertions, deletions or substitutions at target sites. The specificity of CRISPR/Cas9-mediated DNA cleavage requires target sequences matching crRNA and a protospacer adjacent motif locating at downstream of target sequences. Here, we review the molecular mechanism, applications and challenges of CRISPR/Cas9-mediated genome editing and clinical therapeutic potential of CRISPR/Cas9 in future.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "Clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated (Cas) protein 9 system provides a robust and multiplexable genome editing tool, enabling researchers to precisely manipulate specific genomic elements, and facilitating the elucidation of target gene function in biology and diseases. CRISPR/Cas9 comprises of a nonspecific Cas9 nuclease and a set of programmable sequence-specific CRISPR RNA (crRNA), which can guide Cas9 to cleave DNA and generate double-strand breaks at target sites. Subsequent cellular DNA repair process leads to desired insertions, deletions or substitutions at target sites. The specificity of CRISPR/Cas9-mediated DNA cleavage requires target sequences matching crRNA and a protospacer adjacent motif locating at downstream of target sequences. Here, we review the molecular mechanism, applications and challenges of CRISPR/Cas9-mediated genome editing and clinical therapeutic potential of CRISPR/Cas9 in future."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "Animals",
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "DNA Cleavage",
+        "Gene Expression Regulation",
+        "Gene Transfer Techniques",
+        "Genetic Therapy",
+        "Genome",
+        "Genomics",
+        "Humans",
+        "Protein Structure, Tertiary",
+        "RNA Editing",
+        "Sequence Analysis, DNA"
+      ],
+      "publication_status": "ppublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24651067/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    },
+    {
+      "pmid": "25827103",
+      "doi": "10.1007/s00204-015-1504-y",
+      "pmcid": null,
+      "title": "Application of CRISPR/Cas9 genome editing to the study and treatment of disease.",
+      "authors": [
+        "Pellagatti A",
+        "Dolatshad H",
+        "Valletta S",
+        "Boultwood J"
+      ],
+      "journal": "Archives of toxicology",
+      "journal_abbreviation": "Arch Toxicol",
+      "publication_date": {
+        "Year": "2015",
+        "Month": "Jul"
+      },
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "abstract": "CRISPR/Cas is a microbial adaptive immune system that uses RNA-guided nucleases to cleave foreign genetic elements. The CRISPR/Cas9 method has been engineered from the type II prokaryotic CRISPR system and uses a single-guide RNA to target the Cas9 nuclease to a specific genomic sequence. Cas9 induces double-stranded DNA breaks which are repaired either by imperfect non-homologous end joining to generate insertions or deletions (indels) or, if a repair template is provided, by homology-directed repair. Due to its specificity, simplicity and versatility, the CRISPR/Cas9 system has recently emerged as a powerful tool for genome engineering in various species. This technology can be used to investigate the function of a gene of interest or to correct gene mutations in cells via genome editing, paving the way for future gene therapy approaches. Improvements to the efficiency of CRISPR repair, in particular to increase the rate of gene correction and to reduce undesired off-target effects, and the development of more effective delivery methods will be required for its broad therapeutic application.",
+      "abstract_sections": [
+        {
+          "label": null,
+          "text": "CRISPR/Cas is a microbial adaptive immune system that uses RNA-guided nucleases to cleave foreign genetic elements. The CRISPR/Cas9 method has been engineered from the type II prokaryotic CRISPR system and uses a single-guide RNA to target the Cas9 nuclease to a specific genomic sequence. Cas9 induces double-stranded DNA breaks which are repaired either by imperfect non-homologous end joining to generate insertions or deletions (indels) or, if a repair template is provided, by homology-directed repair. Due to its specificity, simplicity and versatility, the CRISPR/Cas9 system has recently emerged as a powerful tool for genome engineering in various species. This technology can be used to investigate the function of a gene of interest or to correct gene mutations in cells via genome editing, paving the way for future gene therapy approaches. Improvements to the efficiency of CRISPR repair, in particular to increase the rate of gene correction and to reduce undesired off-target effects, and the development of more effective delivery methods will be required for its broad therapeutic application."
+        }
+      ],
+      "abstract_status": "available",
+      "abstract_truncated": false,
+      "mesh_terms": [
+        "Animals",
+        "CRISPR-Associated Proteins",
+        "CRISPR-Cas Systems",
+        "Clustered Regularly Interspaced Short Palindromic Repeats",
+        "Gene Expression Regulation",
+        "Gene Transfer Techniques",
+        "Genetic Engineering",
+        "Genetic Therapy",
+        "Humans",
+        "RNA Editing"
+      ],
+      "publication_status": "ppublish",
+      "comments_corrections": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25827103/",
+      "read_level": "record_and_abstract_only",
+      "full_text_retrieved": false
+    }
+  ],
+  "missing_related_pmids": [],
+  "failures": []
+}

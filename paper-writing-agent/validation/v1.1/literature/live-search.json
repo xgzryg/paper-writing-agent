@@ -1,0 +1,23 @@
+{
+  "source": "NCBI PubMed E-utilities",
+  "command": "search",
+  "started_at_utc": "2026-09-11T13:44:48+00:00",
+  "finished_at_utc": "2026-09-11T13:44:49+00:00",
+  "request_interval_seconds": 0.4,
+  "status": "error",
+  "failures": [
+    {
+      "code": "parse_error",
+      "endpoint": "esearch.fcgi",
+      "message": "NCBI response could not be parsed; no zero-hit conclusion follows."
+    }
+  ],
+  "articles": [],
+  "search": {
+    "query": "CRISPR[Title/Abstract]",
+    "total_hits": null,
+    "requested_limit": 3,
+    "retstart": 0,
+    "sort": "relevance"
+  }
+}

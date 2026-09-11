@@ -1,0 +1,12 @@
+{
+  "manuscript": "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\forward-loop\\input\\manuscript.md",
+  "visible_files": [
+    "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\forward-loop\\input\\facts.md"
+  ],
+  "max_rounds": 2,
+  "goal": "只审正文与 facts.md 的一致性和结论强度；上述范围内实质问题已修正且最终稿已再审。",
+  "novelty": false,
+  "network_allowed": false,
+  "human_checkpoint": false,
+  "constraints": "保留全部数字、研究设计及调整变量；只允许修改工作副本文字，不增补新分析、文献、临床研究或期刊录用评估；原始稿保持原样；正文英文、用户讨论中文。"
+}

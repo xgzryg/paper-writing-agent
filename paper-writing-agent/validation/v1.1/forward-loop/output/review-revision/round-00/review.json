@@ -1,0 +1,89 @@
+{
+  "version": "v000",
+  "manuscript": "versions/v000.md",
+  "agent_id": "/root/forward_loop_trial/reviewer_r0",
+  "decision_type": "simulation",
+  "goal_met": false,
+  "can_revise": true,
+  "reason": "摘要误报随机分配、误称统计显著，并与结论一起将观察性结果写成已证实的预防干预。三项范围内问题均可通过同步收窄文字解决，无需更改数字、设计、协变量或新增分析。",
+  "novelty_status": "not_requested",
+  "issues": [
+    {
+      "id": "R-001",
+      "issue_key": "observational_cohort_misreported_as_randomized",
+      "severity": "major",
+      "blocking": true,
+      "status": "open",
+      "in_scope": true,
+      "axis": "experimental-design",
+      "claim_pointer": "v000.md 第7行 Abstract 第2句，We randomized 480 adults to higher or lower sleep regularity",
+      "evidence_pointer": "v000.md 第11行 Methods 第1至2句；facts.md 第5行",
+      "evidence_status": "located",
+      "evidence": "摘要称研究随机分配睡眠规律性，Methods 则明确为前瞻性观察队列且暴露未由研究者分配，facts.md 同样明确 exposure not assigned。",
+      "impact": "该矛盾改变研究设计和读者对因果推断基础的理解，阻止事实一致性目标达成。",
+      "minimum_correction": "将摘要研究设计改为前瞻性观察性队列，并明确睡眠规律性为观察所得。保留 480 人及五年随访，不改动实际设计。",
+      "resolution_test": "摘要与 Methods、facts.md 均表述观察性队列，全文不再声称研究者分配或随机化该暴露。"
+    },
+    {
+      "id": "R-002",
+      "issue_key": "nonsignificant_estimate_claimed_significant",
+      "severity": "major",
+      "blocking": true,
+      "status": "open",
+      "in_scope": true,
+      "axis": "statistical-rigor",
+      "claim_pointer": "v000.md 第7行 Abstract 第5句，Higher sleep regularity significantly prevented cardiovascular events",
+      "evidence_pointer": "v000.md 第7行及第15行，HR 0.68、95% CI 0.31–1.50、P=0.34；facts.md 第8行；v000.md 第19行",
+      "evidence_status": "located",
+      "evidence": "稿件给出的置信区间包含 HR=1，且 P=0.34，却声称 significantly。Discussion 已承认估计不确定性较大。",
+      "impact": "把不确定的估计表述为显著结果，改变核心结果的统计含义。",
+      "minimum_correction": "删除显著性断言，明确 HR 点估计提示较低危险、估计仍不确定，或说明未达到统计学显著性。保留全部 HR、CI、P 值，不改写成已证明无关联或无效应。",
+      "resolution_test": "摘要与结果、讨论对统计不确定性的解释一致，不声称显著降低风险，也不把不显著解释为证明无关联。"
+    },
+    {
+      "id": "R-003",
+      "issue_key": "observational_association_claimed_proven_prevention",
+      "severity": "major",
+      "blocking": true,
+      "status": "open",
+      "in_scope": true,
+      "axis": "causal-vs-correlative",
+      "claim_pointer": "v000.md 第7行 Abstract 末两句，prevented / proven preventive intervention；第23行 Conclusion，establishes ... prevents",
+      "evidence_pointer": "facts.md 第5行和第10行；v000.md 第11行及第19行",
+      "evidence_status": "located",
+      "evidence": "事实底稿和 Methods 确定为未分配暴露的观察性研究，facts.md 明确 No intervention；Discussion 也明确未检验睡眠干预并承认残余混杂。摘要和结论仍断言已证实预防作用。",
+      "impact": "把观察结果提升为已证实的干预和因果效应，超出本次证据支持范围并与正文直接矛盾。",
+      "minimum_correction": "同步收窄摘要和结论为睡眠规律性与心血管事件的观察性关联及其不确定性，移除确证因果、预防和已验证干预的主张。保留研究未检验干预的事实，不新增研究或参考文献。",
+      "resolution_test": "摘要和结论均不宣称该队列确立因果预防作用或证明干预有效，且与观察设计及统计不确定性一致。"
+    }
+  ],
+  "materials_read": [
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/validation/forward-loop/output/review-revision/versions/v000.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/validation/forward-loop/input/facts.md"
+  ],
+  "skill_files_read": [
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/aequitas/SKILL.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/aequitas/PORTABLE.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/aequitas/agents/aequitas.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/aequitas/references/reviewer-visible-scope.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/references/shared-rules.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/nature-reviewer/SKILL.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/nature-reviewer/PORTABLE.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/nature-reviewer/references/technical-concern-taxonomy.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/nature-shared/core/consistency-sweep.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/peer-review/SKILL.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/peer-review/PORTABLE.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/package/paper-writing-agent/skills/paper-review-revision-loop/references/state-interface.md"
+  ],
+  "review_perspectives": [
+    "事实与设计一致性",
+    "统计结果解释",
+    "摘要、讨论和结论的论断强度"
+  ],
+  "perspective_independence": "同一审稿实例内的三个核查视角，不声称三个互盲审稿人。",
+  "scope_limits": "仅审 v000 与 facts.md 的事实一致性和论断强度。未读取代码、原始数据、其他输入、构建报告、作者对话、全局技能或记忆；未联网，未评估创新性或期刊录用。",
+  "artifacts": [
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/validation/forward-loop/output/review-revision/round-00/review.md",
+    "C:/Users/Lenovo/Desktop/AI工作路径/论文写作skill/论文写作综合agent_构建/upgrade-v1.1/validation/forward-loop/output/review-revision/round-00/review.json"
+  ]
+}

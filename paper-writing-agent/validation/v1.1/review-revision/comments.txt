@@ -1,0 +1,7 @@
+Reviewer 1
+Comment 1
+The AUC was 0.82, not 0.92.
+Comment 2
+Please clarify the population.
+Reviewer 2
+1. Explain the limitations.

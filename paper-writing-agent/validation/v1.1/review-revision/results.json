@@ -1,0 +1,168 @@
+{
+  "new_cli_cases": 13,
+  "all_passed": true,
+  "source_consistency_tests": 7,
+  "source_consistency_passed": true,
+  "docx_md_content_sync": "verified key evidence strings, source identifiers and ordering",
+  "docx_visual_qa": "not_performed",
+  "events": [
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\review.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\review.docx"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"docx\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\review.docx\",\n  \"markdown\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\review.md\",\n  \"visual_qa\": \"not_performed\",\n  \"verification\": \"payload structure and cited completion excerpts checked; scientific assessment requires reviewer judgement\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\review.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\review.docx"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Refusing to overwrite an existing DOCX or Markdown file\n"
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\duplicate.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\duplicate.docx"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "duplicate concern ID: R1-M1\n"
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\minor_blocking.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\minor_blocking.docx"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Minor concerns cannot be blocking\n"
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\bad_synthesis.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\bad_synthesis.docx"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "synthesis must reference existing concern IDs\n"
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\unverified_done.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\unverified_done.docx"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "verification.path must be a nonempty string\n"
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\verified_response.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\response.docx"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"docx\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\response.docx\",\n  \"markdown\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\response.md\",\n  \"visual_qa\": \"not_performed\",\n  \"verification\": \"payload structure and cited completion excerpts checked; scientific assessment requires reviewer judgement\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\false_done.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\false_done.docx"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "verified completion excerpt not found in the supplied artifact\n"
+    },
+    {
+      "script": "nature-review-studio/scripts/render_review_docx.py",
+      "arguments": [
+        "--payload",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\planned_response.json",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\planned.docx"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"docx\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\planned.docx\",\n  \"markdown\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\planned.md\",\n  \"visual_qa\": \"not_performed\",\n  \"verification\": \"payload structure and cited completion excerpts checked; scientific assessment requires reviewer judgement\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "rebuttal-writing/scripts/parse_reviews.py",
+      "arguments": [
+        "--input",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\comments.txt",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\comments.json",
+        "--scaffold",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\scaffold.md"
+      ],
+      "returncode": 0,
+      "stdout": "{\"comment_count\": 3, \"status\": \"heuristic_requires_source_check\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "nature-review-studio/scripts/ingest_prf.py",
+      "arguments": [
+        "--input",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\review.docx",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\extracted-docx.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\"output\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\extracted-docx.json\", \"blocks\": 19, \"status\": \"source_extracted_not_distilled\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "nature-review-studio/scripts/ingest_prf.py",
+      "arguments": [
+        "--input",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\two-pages.pdf",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\extracted-pdf.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\"output\": \"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\AI工作路径\\\\论文写作skill\\\\论文写作综合agent_构建\\\\upgrade-v1.1\\\\validation\\\\review-revision\\\\extracted-pdf.json\", \"blocks\": 2, \"status\": \"source_extracted_not_distilled\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "nature-review-studio/scripts/ingest_prf.py",
+      "arguments": [
+        "--input",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\two-pages.pdf",
+        "--out",
+        "C:\\Users\\Lenovo\\Desktop\\AI工作路径\\论文写作skill\\论文写作综合agent_构建\\upgrade-v1.1\\validation\\review-revision\\extracted-pdf.json"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Refusing to overwrite existing lesson input\n"
+    }
+  ]
+}

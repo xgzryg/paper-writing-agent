@@ -1,0 +1,28 @@
+{
+  "status": "heuristic_requires_source_check",
+  "reviewers": [
+    {
+      "reviewer": "Reviewer 1",
+      "comments": [
+        {
+          "source_line": 2,
+          "text": "Comment 1\nThe AUC was 0.82, not 0.92."
+        },
+        {
+          "source_line": 4,
+          "text": "Comment 2\nPlease clarify the population."
+        }
+      ]
+    },
+    {
+      "reviewer": "Reviewer 2",
+      "comments": [
+        {
+          "source_line": 7,
+          "text": "1. Explain the limitations."
+        }
+      ]
+    }
+  ],
+  "comment_count": 3
+}

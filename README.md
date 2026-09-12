@@ -12,7 +12,7 @@ An academic writing agent for literature research, manuscript drafting, polishin
 - [下载 HTML 用户使用说明书 / Download the HTML user guide](https://github.com/xgzryg/paper-writing-agent/raw/refs/heads/main/论文写作综合agent_用户使用说明书.html)
 - [查看安装说明 / Installation instructions](paper-writing-agent/INSTALL.md)
 
-解压独立安装包，将整个 `paper-writing-agent` 文件夹放入宿主的 skills 目录。保留文件夹内的层级，按宿主方式刷新技能或开启新任务，然后输入 `$paper-writing-agent` 并说明任务。包内包含 47 个直接功能分支和 2 个嵌套辅助技能，无需另行安装这些 agent 或 skill。
+解压独立安装包，将整个 `paper-writing-agent` 文件夹放入宿主的 skills 目录。保留文件夹内的层级，按宿主方式刷新技能或开启新任务，然后输入 `$paper-writing-agent` 并说明任务。包内包含 48 个直接功能分支和 2 个嵌套辅助技能，无需另行安装这些 agent 或 skill。
 
 Extract the standalone ZIP and place the complete `paper-writing-agent` folder in your host's skills directory. Keep its internal structure, refresh skill discovery or start a new task as required by your host, then invoke `$paper-writing-agent` with your task. The package bundles 48 direct branches and 2 nested supporting skills.
 

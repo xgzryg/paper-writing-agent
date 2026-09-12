@@ -21,11 +21,12 @@
 | 同行预审与期刊校准 | [academic-peer-review](../skills/academic-peer-review/SKILL.md) | 文档角色由用户指定；不凑意见 |
 | 选刊和HTML报告 | [recommend-sci-journals-report](../skills/recommend-sci-journals-report/SKILL.md) | 现行指标查证；历史快照有截止日期 |
 | 投稿附信 | [write-journal-cover-letter](../skills/write-journal-cover-letter/SKILL.md) | 声明、作者与预印本按实际情况 |
+| 审稿状态、接收后校样/制作进度询问 | [editorial-correspondence](../skills/editorial-correspondence/SKILL.md) | 按实际阶段拟邮件；不要求返修决定或整篇稿件；未知事实留待补 |
 | 返修与逐条回复 | [paper-reviewer-response](../skills/paper-reviewer-response/SKILL.md) | 原意见/作者回答/修订证据分隔 |
 | Proof校对 | [proofread-journal-manuscripts](../skills/proofread-journal-manuscripts/SKILL.md) | 默认逐节确认；已授权可全文连续 |
 | Word创建编辑与修订 | [paper-documents](../skills/paper-documents/SKILL.md) | 包内原创工具；复杂对象保留；渲染条件明确 |
 | PDF提取与页面核验 | [paper-pdf](../skills/paper-pdf/SKILL.md) | 抽取伪影不计作者错误；视觉检查实际页面 |
-| 表格、定量图、PPT及交互解释 | [paper-research-artifacts](../skills/paper-research-artifacts/SKILL.md) | 数据驱动；按产物核验；不自动部署 |
+| 表格、定量图、PPT及交互解释、精读HTML | [paper-research-artifacts](../skills/paper-research-artifacts/SKILL.md) | 数据驱动；精读网页支持主题、移动目录和长页导航；按产物核验；不自动部署 |
 | 工作区、恢复、代码修复与宿主工具 | [paper-workspace-operations](../skills/paper-workspace-operations/SKILL.md) | 最小科研代码修复；工具发现、权限、任务/版本/GUI/定时条件路由 |
 
 ## 串联与局部任务
@@ -35,6 +36,8 @@
 - 已有英文稿：按请求选择润色、精简、改写或Proof；这些分支不互相替代。
 - 投稿：选刊→已选期刊适配→Cover Letter/Highlights/图形摘要；未知作者声明不能自动填肯定句。
 - 返修：当前主稿+真实评语+已完成改动→逐条回复→必要的引用/统计证据核对→同步授权范围内文稿。
+- 编辑询问信：实际稿件阶段与已知事实→审稿状态或接收后进度模式→可复制主题与正文。写信不自动触发返修、Proof检查或发送。
+- 精读网页：按请求完成文献精读及证据定位→科研产物分支的阅读HTML预设→检查全文覆盖、图表、来源锚点及阅读交互。
 - 研究工具：只有当前任务需要表格、图、PPT、站点、定时/GUI时进入对应支撑分支。
 
 分支执行要点见[分支执行说明](source-skill-adaptations.md)；共享底线见[shared-rules.md](shared-rules.md)。

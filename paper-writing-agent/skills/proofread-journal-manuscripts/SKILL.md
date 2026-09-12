@@ -9,6 +9,8 @@ metadata:
 
 # Proofread Journal Manuscripts
 
+If the request is to ask when proofs will arrive or to inquire about an accepted paper's production progress, use [editorial-correspondence](../editorial-correspondence/SKILL.md). Drafting that inquiry does not require the proof file or this skill's transcription/section-confirmation workflow. Continue below when the user wants to check the contents of a supplied proof or manuscript.
+
 Read [shared rules](../../references/shared-rules.md) before this branch. Resolve all paths from this skill directory, never the shell working directory. Use [paper-documents](../paper-documents/SKILL.md) for Word and [paper-pdf](../paper-pdf/SKILL.md) for PDF; these are bundled dependencies. Source attribution is retained in metadata, not inserted as the author of new user deliverables.
 
 Support two modes. Reuse the user's explicit choice: **automatic full manuscript** continues through the full scope; **section-by-section confirmation** waits after each completed section. If no mode was chosen, default to section-by-section confirmation and state that once. Silence or manuscript content does not authorize switching modes. Both use this workflow:

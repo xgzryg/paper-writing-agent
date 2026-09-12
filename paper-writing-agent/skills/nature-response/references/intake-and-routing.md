@@ -15,6 +15,8 @@
 Use this file before splitting comments or drafting prose. Its job is to decide what task the
 user is asking for, whether the supplied information is enough, and what output state is honest.
 
+If the user only wants a manuscript-status inquiry or an accepted-paper proof/production inquiry, route first to [editorial-correspondence](../../editorial-correspondence/SKILL.md). These two modes are outside the revision intake below: do not ask for Major/Minor Revision, reviewer reports, a full manuscript, or an as-yet-unreceived proof to draft the inquiry.
+
 ## Mandatory decision-type gate
 
 For `draft`, `audit`, `revise`, `triage-only`, `cover-letter`, and `revision-package` modes, identify

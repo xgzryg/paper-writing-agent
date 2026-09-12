@@ -6,15 +6,15 @@ An academic writing agent for literature research, manuscript drafting, polishin
 
 ## 下载与安装 / Download and Install
 
-**当前版本 / Current version: v1.1.1**
+**当前版本 / Current version: v1.1.3**
 
-- [下载独立安装包 / Download the standalone ZIP](https://github.com/xgzryg/paper-writing-agent/raw/refs/heads/main/downloads/paper-writing-agent-v1.1.1.zip)
+- [下载独立安装包 / Download the standalone ZIP](https://github.com/xgzryg/paper-writing-agent/raw/refs/heads/main/downloads/paper-writing-agent-v1.1.3.zip)
 - [下载 HTML 用户使用说明书 / Download the HTML user guide](https://github.com/xgzryg/paper-writing-agent/raw/refs/heads/main/论文写作综合agent_用户使用说明书.html)
 - [查看安装说明 / Installation instructions](paper-writing-agent/INSTALL.md)
 
 解压独立安装包，将整个 `paper-writing-agent` 文件夹放入宿主的 skills 目录。保留文件夹内的层级，按宿主方式刷新技能或开启新任务，然后输入 `$paper-writing-agent` 并说明任务。包内包含 47 个直接功能分支和 2 个嵌套辅助技能，无需另行安装这些 agent 或 skill。
 
-Extract the standalone ZIP and place the complete `paper-writing-agent` folder in your host's skills directory. Keep its internal structure, refresh skill discovery or start a new task as required by your host, then invoke `$paper-writing-agent` with your task. The package bundles 47 direct branches and 2 nested supporting skills.
+Extract the standalone ZIP and place the complete `paper-writing-agent` folder in your host's skills directory. Keep its internal structure, refresh skill discovery or start a new task as required by your host, then invoke `$paper-writing-agent` with your task. The package bundles 48 direct branches and 2 nested supporting skills.
 
 若使用 GitHub 的 **Code → Download ZIP**，请进入仓库压缩包，再找到其中的 `paper-writing-agent` 文件夹；仓库根目录本身不是 skill 的安装目录。
 
@@ -69,9 +69,9 @@ Execution requires the relevant model host, file tools, network access, and real
 
 本包是可移植的 agent 与 skill 指令、脚本及资源集合。模型服务、Python 与公共库、联网检索、文档渲染和真实子 agent 工具由宿主提供，按任务需要使用。公共 Python 库见 [requirements.txt](paper-writing-agent/requirements.txt)。
 
-期刊指标查询支持用户提供有权使用的历史数据文件，或由宿主联网核验。公开包不附带商业期刊指标数据库；结果必须注明数据年份和实际查证范围。
+v1.1.3 已将个人期刊数据库随安装包内置：`journals_index.json`（22,643 条期刊索引）和 `2025IF.xlsx`（对应源工作簿）。期刊查询在没有显式 `--data-file` 时默认使用这两份随包数据；显式指定的数据文件会覆盖默认数据。输出会标注数据年份和实际查证范围，现行指标仍可按需要联网核验。
 
-This portable bundle contains agent and skill instructions, scripts, and supporting resources. Your host supplies model access, Python and relevant libraries, network access, document rendering, and real subagent tools as needed. Journal metrics can be checked against a user-supplied dataset or verified online; commercial journal-metrics datasets are not bundled.
+This portable bundle contains agent and skill instructions, scripts, and supporting resources. Your host supplies model access, Python and relevant libraries, network access, document rendering, and real subagent tools as needed. Version 1.1.3 includes a journal index (`journals_index.json`, 22,643 records) and its companion workbook (`2025IF.xlsx`) inside the package. The lookup uses these bundled files by default and accepts an explicitly supplied `--data-file` override; results record the data year and the scope actually checked, while current metrics can still be verified online when needed.
 
 保留各组件自带的许可证与署名；这些组件仍适用各自的许可条件。
 

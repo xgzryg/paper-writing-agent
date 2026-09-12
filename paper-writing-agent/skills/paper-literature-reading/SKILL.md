@@ -49,6 +49,7 @@ v1.1 的实际检索优先读取包内 [litorchestrator](../litorchestrator/SKIL
 
 - 用户需要导图时，从已完成总结提炼主题树，生成可直接使用的Markdown思维导图源码；节点忠实保留核心层级、争议和知识联系。
 - 默认提供本地`.md`源码；需要HTML交互导图或PPT汇报时读取[科研产物分支](../paper-research-artifacts/SKILL.md)。宿主具备本地markmap或等价渲染能力且任务需要时再渲染，缺少渲染能力也交付源码并准确说明。不得为渲染自行把未发表全文上传第三方网站。
+- 用户要论文阅读网页时，使用[本地阅读 HTML 预设](../paper-research-artifacts/references/paper-reader.md)呈现已完成精读内容，保留 Research/Review 的实际覆盖、数字、图表及来源锚点；明暗主题、移动目录和长页阅读不另启新的阅读或翻译流程。
 - Research交付包含身份信息、研究问题/方法、全图表证据表、量化结果、关键问答、评论；Review交付包含层级摘要、术语表、发展脉络、观点比较和研究问题。语言和详略遵循用户任务，避免两模板无差别全贴。
 - 要求Word/PDF成品时主动调用[文档分支](../paper-documents/SKILL.md)或[PDF分支](../paper-pdf/SKILL.md)。
 

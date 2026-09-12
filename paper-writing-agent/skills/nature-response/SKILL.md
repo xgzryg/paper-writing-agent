@@ -19,6 +19,8 @@ description: >-
 
 # Nature Reviewer Response — Router
 
+For a manuscript-status inquiry or an accepted-paper proof/production inquiry, use [editorial-correspondence](../editorial-correspondence/SKILL.md) before entering the revision workflow below. Those two inquiry tasks do not require reviewer comments, a manuscript, or a Major/Minor Revision decision. Receiving an editorial email does not by itself make the task a revision response.
+
 This skill is split into two layers:
 
 - A **static layer** under `static/` that holds versioned, reusable content fragments (the default stance and red lines, and the response workflow with output format).

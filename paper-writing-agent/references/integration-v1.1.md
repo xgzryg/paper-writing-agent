@@ -10,9 +10,11 @@
 | 局部可读性或预审意见 | [academic-peer-review](../skills/academic-peer-review/SKILL.md) | 整篇多视角、方法学审稿用[aequitas](../skills/aequitas/SKILL.md) |
 | 正式多视角审稿 | [aequitas](../skills/aequitas/SKILL.md) | 在可见范围内调用内置审稿、阅读和代码顾问；“多视角”是否实际独立实例据执行情况标注 |
 | 单条审稿意见的回复 | [paper-reviewer-response](../skills/paper-reviewer-response/SKILL.md) | 整包返修审计、改稿与回应同步用[veritas-agent](../skills/veritas-agent/SKILL.md) |
+| 审稿状态或接收后制作进度询问 | [editorial-correspondence](../skills/editorial-correspondence/SKILL.md) | 有真实审稿意见需要逐条回答时再用返修分支；已有校样要核对文字时再用Proof分支 |
 | 返修审计、整包回应 | [veritas-agent](../skills/veritas-agent/SKILL.md) | 正式编辑决定按实际信息；模拟内部循环不编造编辑决定 |
 | 明确开启多轮循环 | [paper-review-revision-loop](../skills/paper-review-revision-loop/SKILL.md) | 实际创建不同审稿/返修子 agent，每次改稿后再审，目标与上限分别控制 |
 | 文献检索、精读、引用 | [litorchestrator](../skills/litorchestrator/SKILL.md)或[paper-literature-reading](../skills/paper-literature-reading/SKILL.md) | 阅读自然进入nature-reader，PubMed由内置数据库和执行器处理 |
+| 精读成果的HTML阅读页 | [paper-research-artifacts](../skills/paper-research-artifacts/SKILL.md) | 上游精读提供正文、图表和来源；页面预设只改善呈现，不改变翻译或阅读覆盖范围 |
 | 创新性、最近似工作、首次主张 | [paper-novelty-assessment](../skills/paper-novelty-assessment/SKILL.md) | 根据实际主张检索和比较；相似度不等于创新度，有限检索不证明全球首次 |
 
 ## 规则冲突处理

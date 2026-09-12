@@ -156,7 +156,8 @@ The files under `references/` are deep references and the example library, not d
 ## Submission boundary
 
 - `nature-writing` owns **initial submission** materials prepared before peer review.
-- `nature-response` owns revision cover letters, rebuttals, point-by-point responses, marked manuscripts, appeals, and other post-decision correspondence.
+- [editorial-correspondence](../editorial-correspondence/SKILL.md) owns manuscript-status inquiries and accepted-paper proof/production inquiries. Route those tasks there without requesting a manuscript or revision decision.
+- `nature-response` owns revision cover letters, rebuttals, point-by-point responses and marked manuscripts; appeal-like cases follow its separate routing boundary.
 - Route graphical abstracts and TOC graphics to `../nature-shared/core/figure-evidence-support.md`; route simulated pre-submission peer review to `nature-reviewer`.
 
 ## Why this split

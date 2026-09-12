@@ -1,9 +1,20 @@
 # Journal data
 
-No journal metrics database is included in the public package. Keep your own permitted spreadsheet and index in your project, then pass their paths explicitly.
+This installation includes a 2025 local journal metrics snapshot:
 
-Build: `python build_index.py --data-file "<project>/journals.xlsx" --output "<project>/journals_index.json"`
+- `journals_index.json`: ready-to-query index built from the accompanying workbook.
+- `2025IF.xlsx`: source workbook retained for inspection or an explicitly requested rebuild.
 
-Query: `python query.py "journal name" --data-file "<project>/journals_index.json"`
+Direct query uses the bundled index:
 
-The query tool does not search old installations or load a default dataset. Without a supplied index it returns `data_unavailable`; it does not report zero matches or perform online verification itself. See the skill instructions for online verification through your agent host.
+`python query.py "journal name"`
+
+To use an authorized replacement index, pass it explicitly:
+
+`python query.py "journal name" --data-file "<project>/journals_index.json"`
+
+Build a new index only when needed:
+
+`python build_index.py --data-file "<project>/journals.xlsx" --output "<project>/journals_index.json"`
+
+The bundled records are an offline, year-labelled snapshot. They are not automatically current metrics; report the data year and use date-aware official verification when the task asks for current information. The query tool never turns a missing index into a zero match.

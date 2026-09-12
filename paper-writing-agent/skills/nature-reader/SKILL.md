@@ -73,3 +73,5 @@ The files under `references/` are deep references, not defaults. Open them on de
 ## 本包依赖
 
 PDF/OCR读取 [paper-pdf](../paper-pdf/SKILL.md)；HTML预览读取 [paper-research-artifacts](../paper-research-artifacts/SKILL.md)。审稿仅需定位证据时只按主任务读取所需页面并引用锚点，不自动产生完整双语成品；用户要求全文精读时继续执行本技能全文交付规则。输出和脚本临时目录遵循主包的用户任务目录约定。
+
+用户明确需要浏览器预览时可使用[本地阅读 HTML 预设](../paper-research-artifacts/references/paper-reader.md)，保留已完成的原文/译文、全部来源块、图表和可读公式。该预设只补充主题、移动布局与长页导航，不改变上述翻译协议，不替代原 Markdown/source map 主产物。

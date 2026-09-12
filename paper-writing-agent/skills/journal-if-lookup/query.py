@@ -2,6 +2,7 @@
 
 Usage from the agent:
     from journal_if_lookup.query import lookup
+    result = lookup("nat rev mol cell bio", top=5)  # bundled 2025 index
     result = lookup("nat rev mol cell bio", top=5, data_file="project/journals_index.json")
 
 The function NEVER fabricates a journal. If the input is ambiguous, it
@@ -20,7 +21,10 @@ import os
 import re
 import sys
 from difflib import SequenceMatcher
+from pathlib import Path
 from typing import Optional
+
+_BUNDLED_DATA_FILE = Path(__file__).resolve().parent / 'data' / 'journals_index.json'
 
 def _load(data_file):
     with open(data_file, 'r', encoding='utf-8-sig') as f:
@@ -175,26 +179,27 @@ def _score(idx_data, j: dict, qn: str, qn_compact: str) -> int:
 # ---------- public API ----------
 
 def lookup(query: str, top: int = 5, data_file: Optional[str] = None) -> dict:
-    """Look up a journal. Never fabricates."""
+    """Look up a journal using the bundled index unless a replacement is supplied."""
     if not query or not str(query).strip():
         return {
             'status': 'error',
             'message': 'Empty query. Please provide a journal name, abbreviation, or ISSN.',
         }
 
-    if not data_file or not os.path.isfile(data_file):
+    selected_file = str(data_file) if data_file else str(_BUNDLED_DATA_FILE)
+    if not os.path.isfile(selected_file):
+        missing_kind = 'the selected replacement index' if data_file else 'the bundled journal index'
         return {
             'status': 'data_unavailable',
             'message': (
-                'No local journal index was supplied or the selected file is missing. '
-                'This package does not bundle journal metrics data. Import a spreadsheet '
-                'you are entitled to use with build_index.py, then pass --data-file INDEX.json; '
+                f'No local journal index is available: {missing_kind} is missing. '
+                'Import a spreadsheet you are entitled to use with build_index.py, then pass --data-file INDEX.json; '
                 'or ask the agent to verify the journal on an accessible official website. '
                 'The local lookup has not been performed; this is not a zero-match result.'
             ),
         }
     try:
-        idx = _load(data_file)
+        idx = _load(selected_file)
     except (OSError, ValueError) as exc:
         return {'status': 'data_error', 'message': f'Cannot read the selected journal index: {exc}'}
     return _lookup_loaded(query, top, idx)
@@ -482,7 +487,7 @@ def _format_result(r: dict) -> str:
 
 
 def main(argv):
-    parser = argparse.ArgumentParser(description='Look up journals in your own local JSON index.')
+    parser = argparse.ArgumentParser(description='Look up journals in the bundled 2025 index or an explicit replacement index.')
     parser.add_argument('query', nargs='+', help='Journal title, abbreviation, or ISSN')
     parser.add_argument('--data-file', help='Explicit path to an index created by build_index.py')
     parser.add_argument('--top', type=int, default=5, help='Maximum candidate count (default: 5)')
